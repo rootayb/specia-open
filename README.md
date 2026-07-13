@@ -14,8 +14,10 @@ Specia'nın **BEP** (Bireyselleştirilmiş Eğitim Programı) ve **Değerlendirm
 
 ## Hazır paketi indir (önerilen — kurulum gerektirmez)
 
+> ⚠️ **Dikkat:** Releases sayfasında iki indirme seçeneği görürsünüz. Yalnızca **`specia-open.zip`** dosyasını indirin. GitHub'ın otomatik oluşturduğu **"Source code (zip)"** (adı `specia-open-1.0.0.zip` gibi görünür) ham kaynak koddur, hazır çalışmaz ve hataya sebep olur.
+
 1. Bilgisayarınızda [Node.js](https://nodejs.org) yoksa LTS sürümünü kurun (bir kez).
-2. [Releases sayfasından](https://github.com/rootayb/specia-open/releases/latest) `specia-open.zip` dosyasını indirin ve bir klasöre çıkarın.
+2. [Releases sayfasından](https://github.com/rootayb/specia-open/releases/latest), **Assets** başlığı altındaki `specia-open.zip` dosyasını indirin ve bir klasöre çıkarın.
 3. **Windows**: `Specia-Baslat.bat` · **macOS**: `Specia-Baslat.command` dosyasına çift tıklayın.
 
 Tarayıcınızda `http://localhost:3000` otomatik açılır. Verileriniz paketin içindeki `veri/` klasöründe saklanır; yedek için o klasörü kopyalamanız yeterli. Ayrıntılar paket içindeki `NASIL-KULLANILIR.txt` dosyasındadır.
@@ -29,18 +31,20 @@ npm install
 npm run setup:local   # .env dosyasını (rastgele anahtarlarla), veritabanını, müfredatı ve beceri şablonlarını oluşturur
 ```
 
-## Çalıştırma
+## Çalıştırma (kaynak koddan)
 
-**En kolay yol:** klasördeki `Specia Local Baslat.command` dosyasına çift tıklayın. Terminal penceresi açılır, uygulama başlar ve tarayıcı `http://localhost:3000` adresinde otomatik açılır. (İlk çalıştırmada bir kez derleme yapar, birkaç dakika sürebilir; sonraki açılışlar saniyeler içinde olur.)
+```bash
+npm run dev     # geliştirme modu — http://localhost:3000
+```
 
-**Kapatmak için:** açılan Terminal penceresinde `Ctrl+C` tuşlarına basın veya pencereyi kapatın. Verileriniz her zaman diske kaydedildiği için istediğiniz an kapatabilirsiniz, veri kaybı olmaz.
-
-Elle çalıştırmak isterseniz:
+veya üretim modu (daha hızlı):
 
 ```bash
 npm run build   # kod değiştiyse bir kez
 npm run start   # uygulamayı başlatır — http://localhost:3000
 ```
+
+**Kapatmak için:** terminalde `Ctrl+C` tuşlarına basın. Verileriniz her zaman diske kaydedildiği için istediğiniz an kapatabilirsiniz, veri kaybı olmaz.
 
 ## Verileriniz
 
