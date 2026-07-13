@@ -1,0 +1,4148 @@
+{
+  "curriculum_catalog": {
+    "version": "2025-pdf-enriched-with-tendencies",
+    "source": "pdflerden_egilimler_dahil_mufredat.json + pdflerden_egilimler_dahil_mufredat_ek_2.json",
+    "courses": [
+      {
+        "course_id": "matematik",
+        "course_name": "Matematik",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Sayılar ve Nicelikler (1)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT1.1",
+                "outcome_text": "Rakamları ve 200’e kadar olan sayıları (200 dâhil) tanıyabilme",
+                "process_components": [
+                  "Rakamları gösterir.",
+                  "Gösterilen rakamı söyler.",
+                  "İstenen rakamı yazar.",
+                  "1’den 200’e kadar olan sayıları gösterir.",
+                  "1’den 200’e kadar olan sayıları söyler.",
+                  "1’den 200’e kadar olan sayıları yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.2",
+                "outcome_text": "Sıralı ve karışık olarak verilen nesne/şekil/resimleri dokunarak sayabilme",
+                "process_components": [
+                  "Sıralı verilen nesneleri dokunarak sayar.",
+                  "Karışık şekilde verilen nesneleri dokunarak sayar.",
+                  "Üzerinde sıralı resimlerin/şekillerin verildiği nesne/şekil resimlerini dokunarak sayar.",
+                  "Karışık resimlerin/şekillerin verildiği nesne/şekil resimlerini dokunarak sayar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.3",
+                "outcome_text": "1’den 200’e kadar olan sayıları sıralayabilme",
+                "process_components": [
+                  "Söylenen/Verilen sayıdan sonra gelen sayıyı söyler.",
+                  "Söylenen/Verilen sayıdan sonra gelen sayıyı yazar.",
+                  "Söylenen/Verilen sayıdan önce gelen sayıyı söyler.",
+                  "Söylenen/Verilen sayıdan önce gelen sayıyı yazar.",
+                  "Sıralı sayı dizisinde eksik bırakılan sayıyı söyler.",
+                  "Sıralı sayı dizisinde eksik bırakılan sayıyı yazar.",
+                  "Karışık şekilde verilen sayıları sıralar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.4",
+                "outcome_text": "Sayılar ile nesne çoklukları arasındaki ilişkiyi matematiksel temsiller kullanarak gösterebilme",
+                "process_components": [
+                  "Bir sayıya karşılık gelen nesne çokluğunu uygun matematiksel temsille (nokta, şekil, çizgi vb.) gösterme",
+                  "Bir sayıya karşılık gelen nesne çokluğunu farklı temsil biçimleriyle (semboller çizerek) ifade etme",
+                  "Bir sayıya karşılık gelen nesne çokluğunu temsil eden matematiksel gösterimleri (rakam ve sayı) kullanma",
+                  "İki farklı nesne çokluğunun temsillerini karşılaştırarak az/çok ilişkisini yorumlama"
+                ]
+              },
+              {
+                "outcome_code": "MAT1.5",
+                "outcome_text": "İleriye ve geriye doğru ritmik sayabilme",
+                "process_components": [
+                  "200’e kadar birer ileriye doğru ritmik sayar.",
+                  "200’e kadar onar ileriye doğru ritmik sayar.",
+                  "200’e kadar beşer ileriye doğru ritmik sayar.",
+                  "20’ye kadar ikişer ileriye ritmik sayar",
+                  "30’a kadar üçer ileriye ritmik sayar.",
+                  "40’a kadar dörder ileriye ritmik sayar.",
+                  "20’den geriye doğru birer ritmik sayar.",
+                  "100’den geriye doğru onar ritmik sayar.",
+                  "50’den geriye doğru beşer ritmik sayar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.6",
+                "outcome_text": "Nesne, sayı ve şekil örüntülerini çözümleyebilme",
+                "process_components": [
+                  "Nesne, sayı ve şekil örüntülerinin ardışık ögelerini belirler.",
+                  "Nesne, sayı ve şekil örüntülerinin ardışık ögeleri arasındaki ilişkiyi belirler.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan nesneleri belirleyerek tamamlar.",
+                  "Modele bakarak üç farklı nesneden oluşan örüntüyü devam ettirir.",
+                  "Üç farklı nesneden örüntü oluşturur.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan şekilleri belirleyerek tamamlar.",
+                  "Modele bakarak üç şekilden oluşan örüntüyü devam ettirir.",
+                  "Üç farklı şekilden örüntü oluşturur.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan sayıları belirleyerek tamamlar.",
+                  "Modele bakarak üç farklı sayıdan oluşan örüntüyü devam ettirir.",
+                  "Üç farklı sayıdan örüntü oluşturur."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin rakamları ve 200’e kadar olan sayıları tanıyabilmeleri, sıralı ve karışık olarak verilen nesne, şekil ve resimleri dokunarak sayabilmeleri, 1’den 200’e kadar olan sa yıları sıralayabilmeleri, sayılar ile nesne çoklukları arasındaki ilişkiyi matematiksel temsiller kullanarak gösterebilmeleri, ileriye ve geriye doğru ritmik sayabilmeleri, nesne, sayı ve şe kil örüntülerini çözümleyebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E1.5.",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E2.3.",
+                "name": "Girişkenlik"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 15
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Sayılar ve Nicelikler (2)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT2.1",
+                "outcome_text": "Standart olmayan ölçme araçları ile uzunluk ölçebilme",
+                "process_components": [
+                  "Gösterilen nesneyi karışla/ayakla/adımla ölçer.",
+                  "Karışla/ayakla/adımla ölçtüğü nesnenin, kaç karış/ayak/adım olduğunu söyler.",
+                  "Karışla/ayakla/adımla ölçtüğü nesnenin, kaç karış/ayak/adım olduğunu yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.2",
+                "outcome_text": "Standart olan ölçme araçları ile uzunluk ölçebilme",
+                "process_components": [
+                  "Cetvelle ölçüm yapar.",
+                  "Ölçtüğü nesneyi cm birimiyle ifade eder."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.3",
+                "outcome_text": "Standart olmayan ölçme araçları ile kütle ölçebilme",
+                "process_components": [
+                  "İki eline aldığı nesneden ağır olanı gösterir.",
+                  "İki eline aldığı nesneden hafif olanı gösterir.",
+                  "İki eline aldığı nesneden ağır olanı söyler.",
+                  "İki eline aldığı nesneden hafif olanı söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.4",
+                "outcome_text": "Standart ölçme araçları ile kütle ölçebilme",
+                "process_components": [
+                  "Terazide nesneyi tartar.",
+                  "Tarttığı nesnenin ağırlığını kilogram cinsinden söyler.",
+                  "Tarttığı nesnenin ağırlığını kilogram cinsinden yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.5",
+                "outcome_text": "Standart olmayan ölçme araçları ile sıvıları ölçebilme",
+                "process_components": [
+                  "Küçük kapla büyük kabı doldurur.",
+                  "Büyük kaptaki sıvıyı küçük kaba uygun şekilde doldurur."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.6",
+                "outcome_text": "Standart ölçme araçları ile sıvıları ölçebilme",
+                "process_components": [
+                  "Ölçekli kaba istenen miktarda sıvı doldurur.",
+                  "Ölçekli kapta yer alan sıvıyı istenen miktarda boşaltır."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin standart olmayan ve standart olan ölçme araçları ile uzunluk, kütle ve sıvı miktarı ölçebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumlu luk, E2.5. Oyun severlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E1.4.",
+                "name": "Kendine İnanma (Öz Yeterlilik)"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumlu luk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyun severlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 23
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Sayılar ve Nicelikler (3)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT3.1",
+                "outcome_text": "Paraları (1 TL, 5 TL, 10 TL, 20 TL, 50 TL, 100 TL ve 200 TL) tanıyabilme",
+                "process_components": [
+                  "Kendisinden istenen parayı gösterir.",
+                  "Gösterilen paranın kaç lira olduğunu söyler.",
+                  "Paranın değeri karşısında alabileceği nesneleri gösterir."
+                ]
+              },
+              {
+                "outcome_code": "MAT3.2",
+                "outcome_text": "Analog saatler üzerinde gösterilen zamanı (tam-yarım-çeyrek saat) okuyabilme",
+                "process_components": [
+                  "Saat üzerinde akrebi gösterir.",
+                  "Saat üzerinde gösterilen ögenin akrep olduğunu söyler.",
+                  "Saat üzerinde yelkovanı gösterir.",
+                  "Saat üzerinde gösterilen ögenin yelkovan olduğunu söyler.",
+                  "Saat üzerinden tam saatleri gösterir.",
+                  "Saat üzerinden tam saatleri söyler.",
+                  "Saat üzerinden yarım saatleri gösterir.",
+                  "Saat üzerinden yarım saatleri söyler.",
+                  "Saat üzerinden çeyrek geçe saatleri gösterir.",
+                  "Saat üzerinden çeyrek geçe saatleri söyler.",
+                  "Saat üzerinden çeyrek kala saatleri gösterir.",
+                  "Saat üzerinden çeyrek kala saatleri söyler.",
+                  "Saat üzerinde kendisine gösterilen saatin kaç olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT3.3",
+                "outcome_text": "Dijital saatler üzerinde gösterilen zamanı (saat ve dakika) okuyabilme",
+                "process_components": [
+                  "Dijital saat üzerinde saatin hangi tarafının saati ifade ettiği sorulduğunda saatin sol tarafını gösterir.",
+                  "Dijital saat üzerinde saatin hangi tarafının dakikayı ifade ettiği sorulduğunda saatin sağ tarafını gösterir.",
+                  "Dijital saatin sol tarafının saati gösterdiğini söyler.",
+                  "Dijital saatin sağ tarafının dakikayı gösterdiğini söyler.",
+                  "Dijital saat üzerinde kendisine gösterilen saatin kaç olduğunu söyler."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin paraları (1 TL, 5 TL, 10 TL, 20 TL, 50 TL, 100 TL ve 200 TL) tanıyabil meleri, analog saatler üzerinde gösterilen zamanı (tam, yarım, çeyrek saat) ve dijital saat ler üzerinde gösterilen zamanı (saat ve dakika) okuyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.1. Empati, E2.2. Sorumluluk, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 30
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "İşlemlerden Cebirsel Düşünmeye",
+            "outcomes": [
+              {
+                "outcome_code": "MAT4.1",
+                "outcome_text": "Toplama işlemi yapabilme",
+                "process_components": [
+                  "Nesnelerle artırma yapar.",
+                  "Toplama işaretini söyler.",
+                  "Toplama işaretini çizer.",
+                  "Eşittir işaretini söyler.",
+                  "Eşittir işaretini çizer.",
+                  "Bir basamaklı bir sayıyla bir basamaklı bir sayıyı toplar.",
+                  "İki basamaklı bir sayı ile bir basamaklı bir sayıyı eldesiz toplar.",
+                  "İki basamaklı bir sayı ile iki basamaklı bir sayıyı sonuç iki basamaklı bir sayı olacak şekilde eldesiz toplar.",
+                  "İki basamaklı bir sayı ile sonuç yine iki basamaklı olacak şekilde eldeli toplama yapar.",
+                  "İstenen toplama işlemini oluşturarak toplama yapar.",
+                  "Hesap makinesi kullanarak toplama işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.2",
+                "outcome_text": "Çıkarma işlemi yapabilme",
+                "process_components": [
+                  "Nesnelerle eksiltme yapar.",
+                  "Eksi işaretini söyler.",
+                  "Eksi işaretini çizer.",
+                  "Bir basamaklı bir sayıdan bir basamaklı sayıyı çıkarır.",
+                  "İki basamaklı sayıdan bir basamaklı sayıyı onluk bozmadan çıkarır.",
+                  "İki basamaklı sayıdan iki basamaklı sayıyı onluk bozmadan çıkarır.",
+                  "İki basamaklı sayıdan bir basamaklı sayıyı onluk bozarak çıkarır.",
+                  "İki basamaklı sayıdan iki basamaklı sayıyı onluk bozarak çıkarır.",
+                  "İstenen çıkarma işlemini oluşturarak çıkarma yapar.",
+                  "Hesap makinesi kullanarak çıkarma işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.3",
+                "outcome_text": "Toplama ve çıkarma işlemi gerektiren problemleri çözebilme",
+                "process_components": [
+                  "Sonucu en fazla iki basamaklı olacak şekilde basit toplama problemi çözer.",
+                  "En fazla iki basamaklı sayıdan iki basamaklı sayıyı çıkarması gereken basit çıkarma problemi çözer.",
+                  "Verilen problemi uygun işleme karar vererek çözer."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.4",
+                "outcome_text": "Çarpma işlemi yapabilme",
+                "process_components": [
+                  "Çarpı işaretini söyler.",
+                  "Çarpı işaretini çizer.",
+                  "1’lerle en fazla iki basamaklı çarpma yapar.",
+                  "10’larla çarpma işlemi yapar.",
+                  "5’lerle çarpma işlemi yapar.",
+                  "2’lerle çarpma işlemi yapar.",
+                  "Hesap makinesi kullanarak çarpma işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.5",
+                "outcome_text": "Bölme işlemi yapabilme",
+                "process_components": [
+                  "Nesneleri ikiye böler.",
+                  "Nesneleri dörde böler.",
+                  "Bölme işaretini söyler.",
+                  "Bölme işaretini çizer.",
+                  "1’le bölme yapar.",
+                  "5’le kalansız bölme yapar.",
+                  "10’la kalansız bölme yapar.",
+                  "Hesap makinesi kullanarak bölme işlemi yapar."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin toplama, çıkarma, çarpma ve bölme işlemlerini yapabilmeleri ile top lama ve çıkarma işlemi gerektiren problemleri çözebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumlu luk",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E1.4.",
+                "name": "Kendine İnanma (Öz Yeterlilik)"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumlu luk"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 35
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Nesnelerin Geometrisi (1)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT5.1",
+                "outcome_text": "Varlıkları konumlandırabilme",
+                "process_components": [
+                  "Bir varlığın üzerinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın üzerinde olduğunu söyler.",
+                  "Bir varlığın altında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın altında olduğunu söyler.",
+                  "Bir varlığın önünde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın önünde olduğunu söyler.",
+                  "Bir varlığın arkasında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın arkasında olduğunu söyler.",
+                  "Bir varlığın uzağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın uzağında olduğunu söyler.",
+                  "Bir varlığın yakınında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın yakınında olduğunu söyler.",
+                  "Bir varlığın içinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın içinde olduğunu söyler.",
+                  "Bir varlığın dışında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın dışında olduğunu söyler.",
+                  "Bir varlığın sağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın sağında olduğunu söyler.",
+                  "Bir varlığın solunda olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın solunda olduğunu söyler.",
+                  "Bir varlığın ilerisinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın ilerisinde olduğunu söyler.",
+                  "Bir varlığın gerisinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın gerisinde olduğunu söyler.",
+                  "Bir varlığın yükseğinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın yükseğinde olduğunu söyler.",
+                  "Bir varlığın alçağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın alçağında olduğunu söyler.",
+                  "Varlıkları uzaklıklarına göre sıralar.",
+                  "Varlıkları yakınlıklarına göre sıralar.",
+                  "Varlıkları yüksekliklerine göre sıralar.",
+                  "Varlıkları arasında olma durumuna göre sıralar."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.2",
+                "outcome_text": "Varlıkları özelliklerine göre ayırt edebilme",
+                "process_components": [
+                  "Başka bir varlığa göre büyük olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre büyük olduğunu söyler.",
+                  "Başka bir varlığa göre küçük olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre küçük olduğunu söyler.",
+                  "Başka bir varlığa göre uzun olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre uzun olduğunu söyler.",
+                  "Başka bir varlığa göre kısa olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre kısa olduğunu söyler.",
+                  "Başka bir varlığa göre kalın olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre kalın olduğunu söyler.",
+                  "Başka bir varlığa göre ince olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre ince olduğunu söyler.",
+                  "Varlıkla aynı olan varlığı gösterir.",
+                  "Varlığın, varlıkla aynı olduğunu söyler.",
+                  "Varlıkla farklı olan varlığı gösterir.",
+                  "Varlığın, varlıkla farklı olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.3",
+                "outcome_text": "Nesneleri görsel özelliklerine göre eşleyebilme",
+                "process_components": [
+                  "Nesneleri rengine göre eşler.",
+                  "Nesneleri şekline göre eşler.",
+                  "Nesneleri boyutuna göre eşler."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.4",
+                "outcome_text": "Bütün, yarım, çeyrek arasındaki ilişkiyi çözümleyebilme",
+                "process_components": [
+                  "Varlıkları bütün, yarım, çeyrek olarak belirler.",
+                  "Bütün, yarım, çeyrek arasındaki ilişkileri belirler.",
+                  "Varlıklar arasından istendiğinde bütün olanı gösterir.",
+                  "Gösterilen varlığın bütün olduğunu söyler.",
+                  "Varlıklar arasından istendiğinde yarım olanı gösterir.",
+                  "Gösterilen varlığın yarım olduğunu söyler.",
+                  "Verilen bir bütünü yarıya ayırır.",
+                  "Varlıklar arasından istendiğinde çeyrek olanı gösterir.",
+                  "Gösterilen varlığın çeyrek olduğunu söyler.",
+                  "Verilen bir bütünü çeyreğine ayırır."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin yer, yön ve konum bildiren kavramları belirleyebilmeleri, yönergeleri kullanarak başlangıç noktası ve hedef arasında ilişki kurabilmeleri ve yönergeleri uygula yarak hedefe ulaşabilmeleri, öğrencilerin çevresinde gördüğü nesnelerin eşini bulmak için rengi, boyu, şekli gibi görsel özelliklerini ölçüt olarak belirleyebilmeleri amaçlanmaktadır. Ayrıca varlıkları bütün, yarım, çeyrek olarak belirlemesi ve bunlar arasındaki ilişkiyi kurma ları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 42
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Nesnelerin Geometrisi (2)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT6.1",
+                "outcome_text": "Geometrik şekilleri ayırt edebilme",
+                "process_components": [
+                  "Gerçek nesneler/resimli kartlar arasından daireyi gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin daire olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından kareyi gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin kare olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından dikdörtgen gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin dikdörtgen olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından üçgeni gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin üçgen olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT6.2",
+                "outcome_text": "Geometrik yapılardaki geometrik şekilleri ayırt edebilme",
+                "process_components": [
+                  "Geometrik yapılarda bulunan daireyi gösterir.",
+                  "Geometrik yapılarda bulunan şeklin daire olduğunu söyler.",
+                  "Geometrik yapılarda bulunan kareyi gösterir.",
+                  "Geometrik yapılarda bulunan şeklin kare olduğunu söyler.",
+                  "Geometrik yapılarda bulunan dikdörtgeni gösterir.",
+                  "Geometrik yapılarda bulunan şeklin dikdörtgen olduğunu söyler.",
+                  "Geometrik yapılarda bulunan üçgeni gösterir.",
+                  "Geometrik yapılarda bulunan şeklin üçgen olduğunu söyler.",
+                  "Geometrik yapılarda bulunan geometrik şekillerin sayısını söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT6.3",
+                "outcome_text": "Geometrik şekilleri özelliklerine göre ayırt edebilme",
+                "process_components": [
+                  "Dairenin kenarı ve köşesi olmadığını söyler.",
+                  "Dairenin içinin dolu olduğunu söyler.",
+                  "Karenin dört kenarı ve kenarlarının uzunluklarının eşit olduğunu söyler.",
+                  "Karenin kenar ve köşelerini gösterir.",
+                  "Dikdörtgenin dört kenarı ve köşesi olduğunu söyler.",
+                  "Dikdörtgenin kısa ve uzun kenarlarını gösterir.",
+                  "Üçgenin kenar ve köşelerini gösterir.",
+                  "Üçgenin üç kenarı ve köşesi olduğunu söyler."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin geometrik şekilleri, geometrik şekillerin günlük yaşam karşılıklarını ve özelliklerini ayırt etmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 49
+          },
+          {
+            "theme_order": 7,
+            "theme_name": "Veriye Dayalı Araştırma",
+            "outcomes": [
+              {
+                "outcome_code": "MAT7.1",
+                "outcome_text": "Grafikleri okuyabilme",
+                "process_components": [
+                  "Etkinlik çizelgesini okur.",
+                  "Çetele tablosunu okur.",
+                  "Sıklık tablosunu okur.",
+                  "Nesne grafiğini okur.",
+                  "Şekil grafiğini okur."
+                ]
+              },
+              {
+                "outcome_code": "MAT7.2",
+                "outcome_text": "Grafikleri oluşturabilme",
+                "process_components": [
+                  "Etkinlik çizelgesi oluşturur.",
+                  "Çetele tablosu oluşturur.",
+                  "Sıklık tablosu oluşturur.",
+                  "Nesne grafiği oluşturur.",
+                  "Şekil grafiği oluşturur."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin etkinlik çizelgesi, çetele tablosu, sıklık tablosu, nesne grafiği, şekil grafiği oluşturmaları ve okuyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.3. Girişkenlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3.",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.3.",
+                "name": "Girişkenlik"
+              }
+            ],
+            "source_pdf": "matematik.pdf",
+            "source_pdf_page": 54
+          }
+        ]
+      },
+      {
+        "course_id": "turkce",
+        "course_name": "Türkçe",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "sections": [
+          {
+            "section_name": "İlk Okuma Yazmaya Hazırlık",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "Merak Ediyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.1",
+                    "outcome_text": "Nesneleri seçebilme",
+                    "process_components": [
+                      "Aynı Olan Nesneleri Eşleme",
+                      "Farklı Olan Nesneleri Ayırt Etme"
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": [
+                      "Nesneleri Sınıflandırma"
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını ifade edebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.1",
+                    "outcome_text": "Yazı araç gerecini kullanabilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El-göz koordinasyonu becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ],
+                "theme_description": "Bu temada öğrencilerin aynı ve farklı olan nesneleri seçebilme, nesneleri gruplayabilme, çevresindeki sesleri tanıyabilme, duyduklarına tepki verebilme, duyduklarını ifade edebilme, yazı araç gerecini kullanabilme, serbest alan ve sınırlı alan boyama becerilerinin geliştirilmesi amaçlanmaktadır.",
+                "conceptual_skills_text": "KB1. Temel Beceriler",
+                "tendencies_text": "E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.7. Sistematiklik",
+                "tendencies": [
+                  {
+                    "code": "E3.1.",
+                    "name": "Muhakeme"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  },
+                  {
+                    "code": "E3.3.",
+                    "name": "Yaratıcılık"
+                  },
+                  {
+                    "code": "E3.7.",
+                    "name": "Sistematiklik"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 34
+              },
+              {
+                "theme_order": 2,
+                "theme_name": "Keşfediyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.2",
+                    "outcome_text": "Nesne görselini seçebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını söyleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El göz koordinasyon becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ],
+                "theme_description": "Bu temada aynı renk ve büyüklükte olan nesne görselini ayırt edebilme, farklı renk ve büyüklükte olan nesne görselini seçebilme, nesne resimlerini gruplayabilme, aynı ve farklı kategoriye ait sözcükleri sunuş sırasına göre söyleyebilme, yazı araç gerecini kullanabilme, dikey ve yatay çizgi çalışmaları yapabilme becerilerinin geliştirilmesi amaçlanmaktadır.",
+                "conceptual_skills_text": "KB1. Temel Beceriler",
+                "tendencies_text": "E2.5. Oyunseverlik, E3.2 Odaklanma",
+                "tendencies": [
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 38
+              },
+              {
+                "theme_order": 3,
+                "theme_name": "Öğrenmeye Hazırım",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını söyleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El göz koordinasyon becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ],
+                "theme_description": "Bu temada nesne ve nesne görsellerini gruplayabilme, nesne ve nesne görselleriyle oluşturulmuş örüntünün aynısını oluşturabilme, nesne görseli parçalarını birleştirerek bütün oluşturabilme, nesne görsellerini gölgeleri ile eşleyebilme, cümle içerisinde duyduğu sözcüklere ait görselleri gösterebilme, cümle içerisinde tekrarlı duyduğu sözcüğü söyleyebilme, yazı araç gerecini kullanabilme, dairesel ve eğik çizgi çalışmaları yapabilme becerilerinin geliştirilmesi amaçlanmaktadır.",
+                "conceptual_skills_text": "KB1. Temel Beceriler",
+                "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.7. Sistematiklik",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  },
+                  {
+                    "code": "E3.7.",
+                    "name": "Sistematiklik"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 42
+              }
+            ]
+          },
+          {
+            "section_name": "Ses Esaslı Okuma Yazma",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "Okul Yaşamım",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından, öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada, ilk okuma ve yazma sürecine ilişkin belirlenen öğrenme çıktılarına ulaşılması ve öğrencilerin tema boyunca “a-A, n-N, e-E, t-T, i-İ, l-L” harflerini öğrenmeleri amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.7. Karşılaştırma, KB2.13. Yapılandırma",
+                "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 46
+              },
+              {
+                "theme_order": 2,
+                "theme_name": "Öğrenme Yolculuğum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/İzlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/İzledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/İzlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada, ilk okuma ve yazma sürecine ilişkin belirlenen öğrenme çıktılarına ulaşılması ve öğrencilerin tema boyunca “o-O, k-K, u-U, r-R, ı-I, m-M” harflerini öğrenmeleri amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.7. Karşılaştırma, KB2.13. Yapılandırma",
+                "tendencies_text": "E1.1. Merak, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.2. Odaklanma",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E2.2.",
+                    "name": "Sorumluluk"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 51
+              },
+              {
+                "theme_order": 3,
+                "theme_name": "Atatürk’üm ve Türkiyem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada, ilk okuma ve yazma sürecine ilişkin belirlenen öğrenme çıktılarına ulaşılması ve öğrencilerin tema boyunca “ü-Ü, s-S, ö-Ö, y-Y, d-D, z-Z” harflerini öğrenmeleri amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.7. Karşılaştırma, KB2.13. Yapılandırma",
+                "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2 Sorumluluk, E2.5. Oyunseverlik, E3.2. Odaklanma",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E1.3.",
+                    "name": "Azim ve Kararlılık"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 56
+              },
+              {
+                "theme_order": 4,
+                "theme_name": "Benim Güzel Ailem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada, ilk okuma ve yazma sürecine ilişkin belirlenen öğrenme çıktılarına ulaşılması ve öğrencilerin tema boyunca “ç-Ç, b-B, g-G, c-C, ş-Ş” harflerini öğrenmeleri amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.7. Karşılaştırma, KB2.13. Yapılandırma",
+                "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E2.4. Güven, E2.5. Oyunseverlik, E3.2. Odaklanma",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E1.3.",
+                    "name": "Azim ve Kararlılık"
+                  },
+                  {
+                    "code": "E2.2.",
+                    "name": "Sorumluluk"
+                  },
+                  {
+                    "code": "E2.4.",
+                    "name": "Güven"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 61
+              },
+              {
+                "theme_order": 5,
+                "theme_name": "Sosyal Çevrem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada, ilk okuma ve yazma sürecine ilişkin belirlenen öğrenme çıktılarına ulaşılması ve öğrencilerin tema boyunca “p-P, h-H, v-V, ğ-Ğ, f-F, j-J” harflerini öğrenmeleri amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.7 Karşılaştırma, KB2.13 Yapılandırma",
+                "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.2. Odak lanma",
+                "tendencies": [
+                  {
+                    "code": "E1.1.",
+                    "name": "Merak"
+                  },
+                  {
+                    "code": "E1.3.",
+                    "name": "Azim ve Kararlılık"
+                  },
+                  {
+                    "code": "E2.2.",
+                    "name": "Sorumluluk"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odak lanma"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 66
+              },
+              {
+                "theme_order": 6,
+                "theme_name": "Artık Okuyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Dinleme kurallarına uygun olarak dinler."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini izlediklerini çözümleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Telaffuza dikkat ederek okur.",
+                      "Noktalama işaretlerine dikkat ederek okur.",
+                      "Anlaşılabilir ve uygun bir hızda sesli okur.",
+                      "Kuralına uygun sesli okur.",
+                      "Kuralına uygun sessiz okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.2",
+                    "outcome_text": "Okudukları ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Okuduğu metnin içeriğine uygun çıkarım yapar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.3",
+                    "outcome_text": "Okuduklarını çözümleyebilme",
+                    "process_components": [
+                      "Okuduğu metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                      "Okuduğu metnin konusunu bulur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.2",
+                    "outcome_text": "Konuşmalarında içerik oluşturabilme",
+                    "process_components": [
+                      "Dinlediği/izlediği metni anlatır.",
+                      "Dinlediği/izlediği metindeki olayları oluş sırasına göre kendi ifadeleriyle anlatır.",
+                      "Okuduğu metindeki olayları oluş sırasına göre kendi ifadeleriyle anlatır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.3",
+                    "outcome_text": "Konuşma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Konuşmalarında konuşma hızını ayarlar.",
+                      "Konuşmalarında vurgu ve tonlamaya dikkat eder.",
+                      "Konuşmalarında sözcükleri yerinde ve anlamına uygun kullanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım ifade becerilerini yönetebilme",
+                    "process_components": [
+                      "Metin yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Dinlediği/izlediği bir metindeki olayları oluş sırasına göre kendi ifadeleriyle yazar.",
+                      "Okuduğu bir metindeki olayları oluş sırasına göre kendi ifadeleriyle yazar.",
+                      "Sözcük ve cümlelerde eksik bırakılan yerleri ön bilgileri doğrultusunda yazarak tamamlar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun yazar.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır.",
+                      "Yazılarında virgülü kuralına uygun kullanır.",
+                      "Yazılarında ünlem işaretini kuralına uygun kullanır.",
+                      "Yazılarında kesme işaretini uygun kullanır."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada yeteneklerin keşfi gibi tema içeriğine uygun okuma ve dinleme metinleri işlenirken dinleme/izleme, konuşma, okuma, yazma becerilerine ilişkin belirlenen öğrenme çıktılarına ulaşmak amaçlanır.",
+                "conceptual_skills_text": null,
+                "tendencies_text": "E1.2. Bağımsızlık, E1.4. Kendine İnanma, E1.5. Kendine Güvenme, E2.3.Girişkenlik, E2.5. Oyunseverlik, E3.3.Yaratıcılık, E3.7. Sistematiklik",
+                "tendencies": [
+                  {
+                    "code": "E1.2.",
+                    "name": "Bağımsızlık"
+                  },
+                  {
+                    "code": "E1.4.",
+                    "name": "Kendine İnanma"
+                  },
+                  {
+                    "code": "E1.5.",
+                    "name": "Kendine Güvenme"
+                  },
+                  {
+                    "code": "E2.3.",
+                    "name": "Girişkenlik"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunseverlik"
+                  },
+                  {
+                    "code": "E3.3.",
+                    "name": "Yaratıcılık"
+                  },
+                  {
+                    "code": "E3.7.",
+                    "name": "Sistematiklik"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 71
+              }
+            ]
+          },
+          {
+            "section_name": "İşlevsel Okuma",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "İşlevsel Okuma",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.İO.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Sözcüğü okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.2",
+                    "outcome_text": "Görseli verilen sözcüğü seçebilme",
+                    "process_components": [
+                      "Görseli verilen sözcüğü seçer.",
+                      "Yazılışı verilen sözcüğü diğer sözcükler arasından gösterir."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.3",
+                    "outcome_text": "Sözcük yazabilme",
+                    "process_components": [
+                      "Sözcük ve o sözcüğe ait görsel gösterildiğinde sözcüğü yazar.",
+                      "Öğretilen sözcük söylendiğinde yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.4",
+                    "outcome_text": "Dinleme eylemi gösterebilme",
+                    "process_components": [
+                      "Konuşan kişiye yönelik dinleme eylemi gösterir."
+                    ]
+                  }
+                ],
+                "theme_description": "Bu temada okuma sürecini yönetebilme, dinleme ve izlemeyi yönetebilme, yazılı anlatım becerilerini yönetebilme, öğretilen sözcük ile önceden verilen sözcüklerden oluşan cümleleri söylendiğinde yazabilme ve konuşmalarını yönetebilme amaçlanmaktadır.",
+                "conceptual_skills_text": "KB2.2. Gözlemleme, KB2.7. Karşılaştırma",
+                "tendencies_text": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunse verlik, E3.2. Odaklanma, E3.7. Sistematiklik",
+                "tendencies": [
+                  {
+                    "code": "E1.4.",
+                    "name": "Kendine İnanma (Öz Yeterlilik)"
+                  },
+                  {
+                    "code": "E1.5.",
+                    "name": "Kendine Güvenme (Öz Güven)"
+                  },
+                  {
+                    "code": "E2.5.",
+                    "name": "Oyunse verlik"
+                  },
+                  {
+                    "code": "E3.2.",
+                    "name": "Odaklanma"
+                  },
+                  {
+                    "code": "E3.7.",
+                    "name": "Sistematiklik"
+                  }
+                ],
+                "source_pdf": "türkçe.pdf",
+                "source_pdf_page": 77
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": "saglikli_yasam_ve_guvenlik_becerileri",
+        "course_name": "Sağlıklı Yaşam ve Güvenlik Becerileri",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Öz Bakım ve Günlük Yaşam",
+            "outcomes": [
+              {
+                "outcome_code": "SYG1.1",
+                "outcome_text": "Kişisel bakımı/temizliği konusunda iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.2",
+                "outcome_text": "Kişisel temizlik becerilerini yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.3",
+                "outcome_text": "Giyinme becerilerini yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.4",
+                "outcome_text": "Hava durumuna uygun kullanılan kıyafet ve eşyaları çözümleyebilme",
+                "process_components": [
+                  "Hava durumuna uygun kullanılan kıyafet ve eşyaları belirler.",
+                  "Hava durumunu ve bu durumda kullanılan kıyafet ve eşyalar arasındaki ilişkileri belirler."
+                ]
+              },
+              {
+                "outcome_code": "SYG1.5",
+                "outcome_text": "Tuvalet alışkanlığı edinebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.6",
+                "outcome_text": "Temel yeme-içme davranışları edinebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.7",
+                "outcome_text": "Uygun malzemeleri belirleyerek yiyecek-içecek hazırlayabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "2. SAĞLIKLI YAŞAM VE GÜVENLİK BECERİLERİ DERSİ ÖĞRETİM PROGRAMI’NDA YER ALAN TEMALAR Öz bakım ve günlük yaşam temasında öğrencilerin; kişisel bakımı/temizliği konu- sunda iş birliği yapabilmeleri, kişisel temizlik becerilerini yerine getirebilmeleri, giyinme becerilerini yerine getirebilmeleri, hava durumuna uygun kıyafet ve eşyaları çözümleyebilmeleri, tuvalet alışkanlığı edinebilmeleri, temel yeme-içme davranışları yerine getirebilmeleri ve uygun malzemeleri belirleyerek yiyecek- içecek hazırlayabilmeleri amaçlanmaktadır. 1. TEMA ÖZ BAKIM VE GÜNLÜK YAŞAM",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+            "tendencies_text": "E2.2. Sorumluluk, E3.1. Uzmanlaşma, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E3.1.",
+                "name": "Uzmanlaşma"
+              },
+              {
+                "code": "E3.7.",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 14
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Sağlıklı Beslenme Becerileri",
+            "outcomes": [
+              {
+                "outcome_code": "SYG2.1",
+                "outcome_text": "Yemek yemeye hazırlanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.2",
+                "outcome_text": "Besinlerin tazelik durumunu ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.3",
+                "outcome_text": "Yemek sırasında kurallara uyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.4",
+                "outcome_text": "Sağlıklı yemek tabağı oluşturabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.5",
+                "outcome_text": "Yemek sonrasında kurallara uyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Sağlıklı beslenme becerileri temasında öğrencilerin yemek yemeye hazırlanabil meleri, besinlerin tazelik durumunu ayırt edebilmeleri, yemek sırasında kurallara uyabilmeleri, sağlıklı yemek tabağı oluşturabilmeleri ve yemek sonrasında kural lara uyabilmeleri amaçlanmaktadır. 2. TEMA SAĞLIKLI BESLENME BECERİLERİ",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.2. Sorumluluk, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 22
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Hastalıklarla Baş Etme",
+            "outcomes": [
+              {
+                "outcome_code": "SYG3.1",
+                "outcome_text": "Sağlıkla ilgili temel kavramları ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.2",
+                "outcome_text": "Sağlığı ile ilgili önemli durumları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.3",
+                "outcome_text": "Sağlığı ile ilgili önemli durumlarda iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.4",
+                "outcome_text": "Bulaşıcı hastalıklardan korunabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Hastalıklarla baş etme temasında öğrencilerin sağlıkla ilgili temel kavramları ayırt edebilmeleri, sağlığı ile ilgili önemli durumları belirleyebilmeleri, sağlığı ile ilgili önemli durumlarda iş birliği yapabilmeleri ve bulaşıcı hastalıklarından korunabil meleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E3.3. Yaratıcılık, E3.7. Sistematiklik, E3.8. Soru Sorma",
+            "tendencies": [
+              {
+                "code": "E3.3.",
+                "name": "Yaratıcılık"
+              },
+              {
+                "code": "E3.7.",
+                "name": "Sistematiklik"
+              },
+              {
+                "code": "E3.8.",
+                "name": "Soru Sorma"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 28
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Tehlikeleri Fark Etme",
+            "outcomes": [
+              {
+                "outcome_code": "SYG4.1",
+                "outcome_text": "Yaralanmalara sebep olabilecek durumları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.2",
+                "outcome_text": "Yaralanmalara sebep olabilecek durumlarda önlem alabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.3",
+                "outcome_text": "Farklı ortamlarda (park, AVM, ev vb.) güvenli davranışlar sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.4",
+                "outcome_text": "Tehlikeli nesneleri/maddeleri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.5",
+                "outcome_text": "Tehlikeli nesneleri belirleyerek güvenli davranışlar sergileyebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Tehlikeleri fark etme temasında öğrencilerin yaralanmalara sebep olabilecek durumları belirleyebilmeleri, yaralanmalara sebep olabilecek durumlarda önlem alabilmeleri, farklı ortamlarda güvenli davranışlar sergileyebilmeleri, tehlikeli nesneleri/maddeleri ayırt edebilmeleri ve tehlikeli nesneleri belirleyerek güvenli davranışlar sergileyebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 33
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Acil Durumlar ve Doğal Afetlerden Korunma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG5.1",
+                "outcome_text": "Acil ve doğal afet durumlarını ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG5.2",
+                "outcome_text": "Acil ve doğal afet durumlarında iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG5.3",
+                "outcome_text": "Acil ve doğal afet durumlarında önlem alabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Bu temada öğrencilerin acil durumlar ile doğal afet durumlarını ayırt edebilmeleri, bu durumlarda uygun yönlendirmelere birlikte uyum gösterebilmeleri ve güvenli davranışlara yönelik temel düzeyde farkındalık geliştirebilmeleri amaçlanmak tadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.7.",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 39
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Trafik Kurallarına Uyma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG6.1",
+                "outcome_text": "Trafik ile ilgili temel kavramları ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG6.2",
+                "outcome_text": "Trafik kurallarını sergileyebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Bu temada öğrencilerin trafikle ilgili temel kavramları ayırt edebilmeleri, trafik ortamına ilişkin güvenli–güvensiz durumları fark edebilmeleri ve trafik kurallarına yönelik uygun davranışları temel düzeyde sergileyebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 44
+          },
+          {
+            "theme_order": 7,
+            "theme_name": "İlk Yardım",
+            "outcomes": [
+              {
+                "outcome_code": "SYG7.1",
+                "outcome_text": "İlk yardım hakkında temel kavramları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG7.2",
+                "outcome_text": "İlk yardım gerektiren durumlara yönelik uygun davranışları yansıtabilme",
+                "process_components": [
+                  "İlk yardım gerektiren durumlara yönelik davranışları gözden geçirir.",
+                  "İlk yardım gerektiren durumlara yönelik uygun davranışlar hakkında çıkarımda bulunur.",
+                  "İlk yardım gerektiren durumlara yönelik davranışlar hakkında çıkarımları değerlendirir."
+                ]
+              }
+            ],
+            "theme_description": "Bu temada öğrencilerin ilk yardımla ilgili temel kavramları ayırt edebilmeleri, ilk yardım gerektiren durumlara yönelik temel düzeyde farkındalık geliştirebilmeleri ve bu durumlarda uygun yönlendirmelere uyum gösterebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.15. Yansıtma",
+            "tendencies_text": "E1.1. Merak, E2.2.Sorumluluk, E2.5. Oyunseverlik, E3.1. Muhakeme",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.1.",
+                "name": "Muhakeme"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 48
+          },
+          {
+            "theme_order": 8,
+            "theme_name": "Kendini Koruma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG8.1",
+                "outcome_text": "Güven çemberinde yer alan kişileri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG8.2",
+                "outcome_text": "Uygun olmayan isteklere güvenli tepkide bulunma",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG8.3",
+                "outcome_text": "Dijital ortamlardaki tehlikelerden korunabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Bu temada öğrencilerin güven çemberinde yer alan kişileri ayırt edebilmeleri, uygun olmayan isteklere yönelik temel düzeyde farkındalık geliştirebilmeleri ve dijital ortamlarda karşılaşabilecekleri tehlikelerden korunabilmeleri amaçlan maktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "sağlıklı yaşam.pdf",
+            "source_pdf_page": 52
+          }
+        ]
+      },
+      {
+        "course_id": "sosyal_beceriler",
+        "course_name": "Sosyal Beceriler",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Birbirimizi Tanıyoruz ve Etkileşim Kuruyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB1.1",
+                "outcome_text": "Sosyal ortamlara uygun selamlaşabilme",
+                "process_components": [
+                  "Aile ortamında uygun ifadelerle selamlaşır.",
+                  "Arkadaş gruplarının olduğu ortamlarda uygun ifadelerle selamlaşır.",
+                  "Kamusal ortamlarda uygun ifadelerle selamlaşır.",
+                  "Dijital ortamlarda uygun ifadelerle selamlaşır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.2",
+                "outcome_text": "Sosyal ortamlara uygun vedalaşabilme",
+                "process_components": [
+                  "Aile ortamında uygun ifadelerle vedalaşır.",
+                  "Arkadaş gruplarının olduğu ortamlarda uygun ifadelerle vedalaşır.",
+                  "Kamusal ortamlarda uygun ifadelerle vedalaşır.",
+                  "Dijital ortamlarda uygun ifadelerle vedalaşır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.3",
+                "outcome_text": "Sosyal ortamlara uygun etkileşim kurabilme",
+                "process_components": [
+                  "Sosyal ortamlarda kendini tanıtır.",
+                  "Sosyal ortamlarda yakın çevresini tanıtır.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşim başlatır.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşimi sürdürür.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşimi sonlandırır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.4",
+                "outcome_text": "Etkileşim ilkelerini uygulayabilme",
+                "process_components": [
+                  "Etkileşim kurduğu kişiyle etkileşim süresince göz teması kurar.",
+                  "Etkileşim sırasında adına tepki verir.",
+                  "Etkileşim sırasında ortak dikkat kurar.",
+                  "Etkileşim kurduğu kişiyi dinler.",
+                  "Etkileşim kurduğu kişiyi dinlediğini gösteren tepkilerde bulunur.",
+                  "Etkileşim kurduğu kişiye uygun geri bildirim verir.",
+                  "Etkileşim süresince tepkide bulunmak için sıra alır.",
+                  "Etkileşim süresince karşıt görüşlere uygun tepki verir.",
+                  "Etkileşim süresince bağlama uygun olarak ses tonunu ayarlar.",
+                  "Etkileşim kurduğu kişiyle sosyal mesafeyi ayarlar."
+                ]
+              }
+            ],
+            "theme_description": "Bu tema, öğrencilere sosyal ortama uygun selamlaşma ve vedalaşma, sosyal ortama uygun etkileşim kurma ve etkileşim ilkelerini uygulama becerilerini kazandırmayı hedef lemektedir. Bu beceriler aracılığıyla öğrencilerin sosyal ortamlarda etkili etkileşim kura bilmeleri ve sosyal çevrelerine uyum sağlayabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.1. Empati, E2.5. Oyunseverlik, E3.1. Muhakeme",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.1.",
+                "name": "Muhakeme"
+              }
+            ],
+            "source_pdf": "sosyal beceriler.pdf",
+            "source_pdf_page": 13
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Duygularımızı Tanıyoruz ve İfade Ediyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB2.1",
+                "outcome_text": "Duyguları tanıyabilme",
+                "process_components": [
+                  "Duyguları belirten yüz ifadelerini taklit eder.",
+                  "Duyguları jest ve mimiklerini kullanarak gösterir.",
+                  "Jest ve mimiklerle gösterilen duygunun ne olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "SB2.2",
+                "outcome_text": "Duygulara uygun tepkide bulunabilme",
+                "process_components": [
+                  "Etkileşim sırasında duygusunu fark eder.",
+                  "Etkileşim sırasında duygusunu ifade eder.",
+                  "Etkileşim sırasında diğer insanların duygusunu fark eder.",
+                  "Etkileşim sırasında diğer insanların duygusuna uygun tepki verir."
+                ]
+              }
+            ],
+            "theme_description": "Bu tema, öğrencilere temel duyguları tanıyabilme ve duygulara uygun tepkide bulunabil me becerilerini kazandırmayı hedeflemektedir. Bu beceriler aracılığıyla öğrencilerin sos yal etkileşimleri sırasındaki duyguların farkına varmaları ve bu duygulara uygun tepkide bulunmaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.1. Empati, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E3.2.",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "sosyal beceriler.pdf",
+            "source_pdf_page": 18
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Birlikte Yaşıyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB3.1",
+                "outcome_text": "Toplumsal yaşama uyumu kolaylaştıran nezaket ifadelerini kullanabilme",
+                "process_components": [
+                  "Toplumsal yaşamda karşılaştığı durumlara uygun nezaket ifadelerini belirler.",
+                  "Toplumsal yaşamda karşılaştığı durumlara uygun nezaket ifadelerini kullanır."
+                ]
+              },
+              {
+                "outcome_code": "SB3.2",
+                "outcome_text": "Toplumsal yaşama uyumu kolaylaştıran becerileri sergileyebilme",
+                "process_components": [
+                  "Paylaşır.",
+                  "İzin alır.",
+                  "Sıra bekler.",
+                  "İş birliği yapar.",
+                  "Yardımlaşır."
+                ]
+              }
+            ],
+            "theme_description": "Bu tema, öğrencilere nezaket ifadelerini kullanma, paylaşma, izin alma, sıra bekleme, iş birliği yapma ve yardımlaşma becerilerini kazandırmayı hedeflemektedir. Bu beceriler aracılığıyla öğrencilerin toplumsal yaşama uyum sağlayabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.1. Empati, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E3.2.",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "sosyal beceriler.pdf",
+            "source_pdf_page": 22
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Duygu ve Davranışlarımızı Yönetiyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB4.1",
+                "outcome_text": "Başkasından gelen isteklere uygun tepki verebilme",
+                "process_components": [
+                  "Uygun olan ve olmayan istekleri ayırt eder.",
+                  "Uygun istekleri kabul eder.",
+                  "Uygun olmayan istekleri reddeder."
+                ]
+              },
+              {
+                "outcome_code": "SB4.2",
+                "outcome_text": "Tercihlerini ifade edebilme",
+                "process_components": [
+                  "Tercihlerini belirler.",
+                  "Tercihlerini belirtir.",
+                  "Tercihlerinin nedenlerini ifade eder."
+                ]
+              },
+              {
+                "outcome_code": "SB4.3",
+                "outcome_text": "Olumsuz durumla başa çıkabilme",
+                "process_components": [
+                  "Olumsuz durumu ayırt eder.",
+                  "Olumsuz duruma uygun tepkileri belirler.",
+                  "Olumsuz durumda gösterilecek uygun tepkiyi seçer.",
+                  "Olumsuz durum için karar verdiği tepkiyi uygular.",
+                  "Tepkisinin sonuçlarını değerlendirir."
+                ]
+              },
+              {
+                "outcome_code": "SB4.4",
+                "outcome_text": "Günlük yaşamını planlayabilme",
+                "process_components": [
+                  "Gün içinde yapması gereken sorumlulukları listeler.",
+                  "Gün içinde yapması gereken sorumluluklar için uygun zamanı belirler.",
+                  "Belirlediği zaman diliminde sorumlulukları yerine getirir.",
+                  "İhtiyaç durumunda günlük planında değişiklikler yapar."
+                ]
+              },
+              {
+                "outcome_code": "SB4.5",
+                "outcome_text": "Günlük yaşamda karşılaştığı basit problemlerle başa çıkabilme",
+                "process_components": [
+                  "Karşılaştığı problemin ne olduğunu söyler.",
+                  "Karşılaştığı probleme ilişkin çözüm önerilerini listeler.",
+                  "Karşılaştığı probleme ilişkin çözüm önerilerini uygular.",
+                  "Çözüm önerilerinin karşılaştığı problemi çözmede etkili olup olmadığını değerlendirir."
+                ]
+              },
+              {
+                "outcome_code": "SB4.6",
+                "outcome_text": "Öz düzenleme becerilerini sergileyebilme",
+                "process_components": [
+                  "Başarmak istediklerine ilişkin hedef koyar.",
+                  "Hedefe ulaşmak için yapması gerekenleri listeler.",
+                  "Hedefe ulaşmak için yapması gerekenleri yerine getirir.",
+                  "Hedefe ulaşma yolundaki performansını değerlendirir.",
+                  "Performansına uygun kendisine geri bildirim verir."
+                ]
+              }
+            ],
+            "theme_description": "Bu tema, öğrencilere uygun olan ve olmayan istekleri ayırt etme, bu isteklere uygun tep kide bulunma, tercih ifade etme, olumsuz durumlara uygun tepkide bulunma, günlük ya şamı planlama, günlük yaşamda karşılaşılan sosyal problemleri çözme ve öz düzenleme becerilerini kazandırmayı hedeflemektedir. Bu beceriler aracılığıyla öğrencilerin güvenli ve bağımsız bir yaşam sürmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.2. Sorumluluk",
+            "tendencies": [
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              }
+            ],
+            "source_pdf": "sosyal beceriler.pdf",
+            "source_pdf_page": 26
+          }
+        ]
+      },
+      {
+        "course_id": "bagimsiz_yasam_becerileri",
+        "course_name": "Bağımsız Yaşam Becerileri",
+        "applicable_grade_levels": [
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Kendimi Keşfediyorum",
+            "outcomes": [
+              {
+                "outcome_code": "BYB1.1",
+                "outcome_text": "Kendisini ve yakın çevresini tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.2",
+                "outcome_text": "Duyguları tanıyarak uygun tepkilerde bulunabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.3",
+                "outcome_text": "Duyguları düzenleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.4",
+                "outcome_text": "Yönergeleri alarak dikkatini sürdürebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "2. BAĞIMSIZ YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI’NDA YER ALAN TEMALAR 1. TEMA: KENDİMİ KEŞFEDİYORUM Bu temada; öğrencilerin kendisini ve yakın çevresini tanıyabilmeleri, duyguları tanıyarak uygun tepkilerde bulunabilmeleri, duyguları düzenleyebilmeleri ve duygu, düşünce ve davranışlarını kontrol edebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E2.1. Empati, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.4.",
+                "name": "Kendine İnanma (Öz Yeterlilik)"
+              },
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2.",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3.",
+                "name": "Yaratıcılık"
+              },
+              {
+                "code": "E3.7.",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 13
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Bağımsızım, Günlük Hayata Hazırım",
+            "outcomes": [
+              {
+                "outcome_code": "BYB2.1",
+                "outcome_text": "Yaşantısıyla ilgili planlamalar yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.2",
+                "outcome_text": "Sorumluluklarını yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.3",
+                "outcome_text": "Ev içi becerileri yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.4",
+                "outcome_text": "Toplumsal ortamları kurallarına uygun kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.5",
+                "outcome_text": "Toplumsal yaşamda bağımsız hareket edebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "2. TEMA: BAĞIMSIZIM, GÜNLÜK HAYATA HAZIRIM Bu temada; öğrencilerin yaşantısıyla ilgili planlamalar yapabilmeleri, sorumluluklarını yerine getirebilmeleri, ev içi becerileri yerine getirebilmeleri, toplumsal ortamları kurallarına uygun kullanabilmeleri, toplumsal yaşamda bağımsız hareket edebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.2. Sorumluluk, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 18
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "İletişim Köprüleri",
+            "outcomes": [
+              {
+                "outcome_code": "BYB3.1",
+                "outcome_text": "Ortam ve kişilere uygun iletişim kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.2",
+                "outcome_text": "Grup içinde uygun sosyal davranışları sergileyerek iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.3",
+                "outcome_text": "Arkadaşlık ilişkileri kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.4",
+                "outcome_text": "Günlük yaşamda karşılaştığı problemleri tanımlayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.5",
+                "outcome_text": "Günlük yaşamda karşılaştığı problemlere yönelik alternatif çözüm yolları bulabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "3. TEMA: İLETİŞİM KÖPRÜLERİ Bu temada öğrencilerin; ortam ve kişilere uygun iletişim kurabilmeleri, grup içinde uygun sosyal davranışları sergileyerek iş birliği yapabilmeleri, arkadaşlık ilişkileri kurabilme ve sür dürebilmeleri, günlük yaşamda karşılaştıkları problemleri ve nedenlerini tanımlayabilmeleri, günlük yaşamda karşılaştıkları problemlere yönelik alternatif çözüm yolları bulabilmeleri ve uygulayabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E2.1 Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.10. Eleştirel Bakma",
+            "tendencies": [
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.3.",
+                "name": "Girişkenlik"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 25
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Güvende Kal, Özgür Ol",
+            "outcomes": [
+              {
+                "outcome_code": "BYB4.1",
+                "outcome_text": "Kişilerle güvenli iletişim kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.2",
+                "outcome_text": "Tehlikeli durumlara yönelik önlem alabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.3",
+                "outcome_text": "Acil durumlara uygun hareket edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.4",
+                "outcome_text": "Teknolojik iletişim araçlarını fiziksel sağlığını koruyacak şekilde kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.5",
+                "outcome_text": "Teknolojik iletişim araçlarını güvenli bir biçimde kullanabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "4. TEMA: GÜVENDE KAL, ÖZGÜR OL Bu temada; öğrencilerin kişilerle güvenli iletişim kurabilmeleri, tehlikeli durumlara yönelik önlem alabilmeleri, acil durumlara uygun hareket edebilmeleri, teknolojik iletişim araçlarını fiziksel sağlığını koruyacak ve güvenli bir biçimde kullanabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.1 Empati, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.9 Şüphe Duyma",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.2.",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 32
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Bilinçli Alışveriş",
+            "outcomes": [
+              {
+                "outcome_code": "BYB5.1",
+                "outcome_text": "İhtiyaçlarına göre alışveriş yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB5.2",
+                "outcome_text": "Güvenli alışveriş yapabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "5.TEMA: BİLİNÇLİ ALIŞVERİŞ Bu temada, öğrencilerin ihtiyaçlarına göre bilinçli ve güvenli alışveriş yapabilmeleri amaç lanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.7.",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 38
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Değerlerimiz",
+            "outcomes": [
+              {
+                "outcome_code": "BYB6.1",
+                "outcome_text": "Belirli gün ve haftalar ile ilgili etkinliklere katılabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB6.2",
+                "outcome_text": "Atatürk’ü tanıyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "6. TEMA: DEĞERLERİMİZ Bu temada; öğrencilerin belirli gün ve haftalarla ilgili etkinliklere katılabilmeleri ve Atatürk’ü tanıyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.1. Empati, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1.",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.1.",
+                "name": "Empati"
+              },
+              {
+                "code": "E2.5.",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "bağımsız yaşam.pdf",
+            "source_pdf_page": 42
+          }
+        ]
+      },
+      {
+        "course_id": "beden_egitimi_oyun_ve_spor",
+        "course_name": "Beden Eğitimi, Oyun ve Spor",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "TEMEL HAREKET KAVRAMLARI",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS1.1.",
+                "outcome_text": "Hareket ederken beden ve alan (kişisel-genel) farkındalığı sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS1.2.",
+                "outcome_text": "Düzgün duruş (postür) sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS1.3.",
+                "outcome_text": "Hareket kavramlarını fiziksel aktivitelerde uygulayabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin düzgün duruş sergileyerek postür farkındalığı kazanmaları, hareket sırasında beden ve alan farkındalığı geliştirmeleri, hareket kavramlarını fiziksel etkinlikler de doğru bir şekilde uygulamaları ve spor ortamlarında güvenli davranışlar göstermeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 13
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "TEMEL HAREKET BECERİLERİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS2.1.",
+                "outcome_text": "Yer değiştirme hareketlerini yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS2.2.",
+                "outcome_text": "Dengeleme hareketlerini yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS2.3.",
+                "outcome_text": "Nesne kontrolü hareketlerini yapabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin yer değiştirme, dengeleme ve nesne kontrolü gerektiren hareketleri farklı düzeylerde ve ortamlarda etkin bir şekilde uygulamaları, bu hareketleri artan bir doğ rulukla gerçekleştirmeleri ve temel hareket becerilerini geliştirerek sportif performanslarını artırmaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5.Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E1.5",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 18
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "BİRLEŞTİRİLMİŞ HAREKET BECERİLERİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS3.1.",
+                "outcome_text": "Motor hareketleri taklit edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS3.2.",
+                "outcome_text": "Birleştirilmiş hareket becerilerini sergileyebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin motor hareketleri taklit etme becerilerini geliştirmeleri ve birleştirilmiş hareketleri oyun ve fiziki etkinlikler aracılığıyla farklı düzey ve seviyelerde gerçekleştirebil meleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 26
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "RİTMİK HAREKET BECERİLERİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS4.1.",
+                "outcome_text": "Ritmik hareket etme becerisi sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS4.2.",
+                "outcome_text": "Ritme ve müziğe uygun ritmik vücut hareketleri yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS4.3.",
+                "outcome_text": "Müzik eşliğinde eşle veya grupla ritmik hareket edebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin ritmik hareket becerilerini geliştirerek bireysel, eşli veya grup içinde ritmik hareketlere katılım göstermeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.5",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 30
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "TEMEL SPOR BECERİLERİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS5.1.",
+                "outcome_text": "Kurallı oyunlar oynayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS5.2.",
+                "outcome_text": "Seçilen spor branşına ilişkin hareket edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS5.3.",
+                "outcome_text": "Performansla ilgili fiziksel uygunluğu sağlayabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin temel hareket becerilerini geliştirerek basit kurallı oyunlara katıl maları, seçilen spor branşına uygun hareketleri yapmaları ve performansa ilişkin fiziksel uygunluklarını desteklemeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 34
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "SAĞLIK VE ZİNDELİK BECERİLERİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS6.1.",
+                "outcome_text": "Fiziksel aktivitelerde vücudunda meydana gelen değişimleri açıklayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS6.2.",
+                "outcome_text": "Beden eğitimi, oyun ve spor ile ilgili temizlik ve hijyene ilişkin kişisel sorumlulukları sağlayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS6.3.",
+                "outcome_text": "Günlük yaşamında fiziksel aktiviteye katılabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada, öğrencilerin fiziksel aktivitelere aktif olarak katılmaları, bu aktiviteler sırasında vücutlarında meydana gelen değişimleri fark edebilmeleri, aktivitelere uygun biçimde giyinmeleri ve temizlik becerilerini geliştirmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.3",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E2.2",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 38
+          },
+          {
+            "theme_order": 7,
+            "theme_name": "EGZERSİZ ARAÇLARI VE TEKNOLOJİ DESTEKLİ",
+            "outcomes": [
+              {
+                "outcome_code": "BEOS7.1.",
+                "outcome_text": "Egzersiz araç gerecini kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BEOS7.2.",
+                "outcome_text": "Fiziksel aktivite yapmaya yardımcı olan teknolojik araç gereci kullanabilme",
+                "process_components": [
+                  "EK-2 ÖRNEK ÖLÇME VE DEĞERLENDİRME FORMLARI",
+                  "KONTROL LİSTESİ",
+                  "Etkinlik: Düzgün Duruş (Postür) Sergileyebilme",
+                  "Yönerge: Bu form, öğrencinizin düzgün duruş (postür) sergileyebilme becerisini değerlendirmek amaçıyla hazırlanmıştır.",
+                  "Öğrencinizin bağımsız olarak sergilediği beceriler için formda ilgili sütuna “+”, bağımsız olarak sergileyemediği beceriler",
+                  "için “-” işareti koyunuz. Önemli olduğunu düşündüğünüz noktaları ise açıklamalar kısmına yazınız.",
+                  "Öğrencinin Adı-Soyadı:",
+                  "EVET (+)",
+                  "HAYIR (-)",
+                  "Düzgün duruşu (postür) gösterir.",
+                  "Farklı ortamlarda düzgün duruşu gösterir.",
+                  "PERFORMANS GÖREVİ",
+                  "Etkinlik: Yer Değiştirme Hareketlerini Yapabilme",
+                  "Yönerge: Bu performans görevi, öğrencinizin “Yer Değiştirme Hareketlerini Yapabilme” öğrenme çıktısını değerlendirmek",
+                  "amaçıyla hazırlanmıştır. Bu form, öğrencinizin öğrenme basamaklarına ilişkin performansını kayıt altına alarak değerlen",
+                  "dirmenize olanak sağlar.",
+                  "Öğrencinin Adı-Soyadı:",
+                  "Görev Başlığı: “Harekete Hazırım!”",
+                  "Görev Açıklaması:",
+                  "Öğrencinin yer değiştirme hareketlerini sergileyebilmesine yönelik “Harekete Hazırım!” parkuru hazırlanır. Öğrencinin",
+                  "başarısının değerlendirilmesi için parkuru istenen doğrulukta tamamlaması beklenir. Bu parkurun oluşturulmasında",
+                  "aşağıdaki unsurlara dikkat edilir:",
+                  "1.",
+                  "Yürüme ve koşma yapabilmesi için en az 10 metre uzunluğunda iki tarafı emniyet şeridi, ip veya koni gibi araçlarla",
+                  "çevrili bir alan oluşturulur.",
+                  "2.\t Öğrencinin boyuna uygun şekilde okul bahçesinde veya kapalı alanda nesne asılabilecek sıçrama alanları belirlenir.",
+                  "3.",
+                  "Kayma hareketini sergileyebilmesi için bir alan oluşturulur ve zemine yönlendirme okları çizilir.",
+                  "4.\t Yuvarlanma hareketi için jimnastik minderi, tatami vb. yumuşak zemin malzemeleri kullanılarak güvenli bir zemin",
+                  "oluşturulur.",
+                  "5.",
+                  "Tırmanma davranışı; tırmanma halatı, tırmanma duvarı veya tırmanma ağı gibi ekipmanlarla gözlemlenir ve analiz edilir.",
+                  "Öğrenci, öğretmen yönlendirmesiyle parkurda performansını sergileyebilir. Parkur içerisinde, öğrencinin gelişim düzeyi",
+                  "ne uygun uyarlamalar yapılmalıdır. Etkinlik süresince öğrencinin performansı yazılı olarak kayıt altına alınır. Parkur alanı",
+                  "oluşturulurken, aşağıda görselleri yer alan hareketlerin sergilenebileceği bölümler eksiksiz bir şekilde hazırlanır.",
+                  "GÖZLEM FORMU",
+                  "Etkinlik: Motor Hareketleri Taklit Edebilme",
+                  "Yönerge: Gözlem formu öğrencinizin “Motor Hareketleri Taklit Edebilme” öğrenme çıktısını değerlendirmek üzere hazır",
+                  "lanmıştır. Öğrencinizin öğrenme basamaklarına ilişkin performansına yönelik Çok iyi (3 Puan) , İyi (2 Puan), Geliştirilebilir",
+                  "(1 Puan) olarak değerlendiriniz. Öğrencinin performansıyla ilgili notlarınızı açıklamalar kısmına yazınız.",
+                  "Değerlendirme Notu:",
+                  "7p-9p: Öğrenme çıktıları kazanılmıştır.",
+                  "5p-6p: Eksikler tamamlanmalı, öğrenme çıktılarında ihtiyaç duyulan kısımlar tekrar edilmelidir.",
+                  "3p-4p: Öğrenme çıktıları baştan tekrar edilmelidir.",
+                  "Öğrencinin Adı Soyadı:",
+                  "Çok iyi (3)",
+                  "İyi (2)",
+                  "Geliştirilebilir (1)",
+                  "A. Vücudunun herhangi bir bölümü ile yapı",
+                  "lan motor hareketleri taklit eder.",
+                  "B. Nesnelerle yapılan kaba motor hareketleri",
+                  "taklit eder.",
+                  "C. Nesnelerin işlevlerine göre yapılan motor",
+                  "hareketleri taklit eder.",
+                  "PERFORMANSA DAYALI DEĞERLENDİRME FORMU",
+                  "Etkinlik: Ritmik Hareket Etme Becerisi Sergileyebilme",
+                  "Yönerge: Bu form, öğrencinin “Ritmik Hareket Etme Becerisi Sergileyebilme” becerisini değerlendirmek amaçıyla ha",
+                  "zırlanmıştır. Değerlendirme sürecinde öğrencinin gözlemlenen her bir davranışı; 1. Hiç Katılmadı (Öğrenci ilgili davranışı",
+                  "göstermemiştir.), 2. Kısmen Katıldı (Öğrenci davranışı zaman zaman veya öğretmen yönlendirmesiyle gerçekleştirmiştir.),",
+                  "3. Tam Katıldı (Öğrenci davranışı tutarlı, bağımsız ve istekli biçimde gerçekleştirmiştir.) düzeylerine göre puanlanır. Her",
+                  "performans göstergesi dikkatle gözlemlenmeli ve uygun kutucuk (       ) işaretlenmelidir. Açıklamalar/Gözlemler sütununa",
+                  "öğrencinin davranışına dair notlar yazılması gelişim sürecinin takibi açısından önemlidir. Değerlendirme sonunda toplam",
+                  "puan üzerinden öğrencinin genel düzeyi belirlenebilir.",
+                  "Öğrencinin Adı Soyadı:                                          Değerlendirme Tarihi:",
+                  "Davranış: Ritmik hareket etme becerisi sergileyebilme.",
+                  "Genel Gözlem Notu:",
+                  "8p-9p: Öğrenme çıktılarına ulaşılmıştır.",
+                  "7p: Eksikler tamamlanmalı, öğrenme çıktılarında ihtiyaç duyulan kısımlar tekrar edilmelidir.",
+                  "5p-6p: Öğrenme çıktıları baştan tekrar edilmelidir.",
+                  "Performans Göstergeleri",
+                  "Hiç Katılmadı",
+                  "Kısmen Katıldı",
+                  "Tam Katıldı",
+                  "Açıklamalar /",
+                  "Harekete/müziğe ilişkin ritmi algılar.",
+                  "Bedenini ritme uygun hareket ettirir.",
+                  "Ritmik hareketleri yönergeler doğrultu",
+                  "sunda tekrar ederek hareket becerilerini",
+                  "sergiler.",
+                  "ÖZ DEĞERLENDİRME FORMU",
+                  "Etkinlik: Basit Kurallı Oyunları Oynayabilme",
+                  "Yönerge: Öğrenciye: “Bu form, oyun oynadıktan sonra kendini değerlendirmen için hazırlanmıştır. Her soruda sana en",
+                  "uygun seçeneği ‘X’ ile işaretle.” yönergesini veriniz.",
+                  "“Hayır” şeklinde işaretlediğiniz davranışları kazanmaya çalışmanız önerilir.",
+                  "Oyunun kurallarını ifade ettim.",
+                  "Oyuna ilişkin hareket becerilerini yaptım.",
+                  "Oyunu kurallarıyla oynadım.",
+                  "Öğrenme Çıktısı",
+                  "Fiziksel aktivite yapmaya yardımcı olan",
+                  "teknolojik araç gereci tanır.",
+                  "Fiziksel aktivite yapmaya yardımcı olan",
+                  "teknolojik araç gerecini rehber eşliğinde",
+                  "kullanır.",
+                  "Fiziksel aktivite yapmaya yardımcı olan tek",
+                  "nolojik araç gereci bağımsız olarak kullanır.",
+                  "ONAY KUTULU DERECELENDİRME ÖLÇEĞİ",
+                  "Etkinlik: Fiziksel Aktivite Yapmaya Yardımcı Olan Teknolojik Araç Gereci Kullanabilme",
+                  "Yönerge: Bu ölçek, öğrencinin “Fiziksel Aktivite Yapmaya Yardımcı Olan Egzersiz Araçlarını Kullanabilme” becerisini de",
+                  "ğerlendirmek amaçıyla hazırlanmıştır. Değerlendirme sürecinde öğrencinin gözlemlenen her bir davranışı; 1. “ Evet: Dav",
+                  "ranışı bağımsız ve doğru şekilde gerçekleştirdi.” 2. “Kısmen: Davranışı kısmen destekle gerçekleştirdi.” 3. “Hayır: Davranışı",
+                  "gerçekleştiremedi ya da yönlendirmeye rağmen uygunsuz gerçekleştirdi.” kriterlerine göre belirlenir. Her performans",
+                  "göstergesi dikkatle gözlemlenmeli ve uygun kutucuk (      ) işaretlenmelidir. Açıklamalar sütununa öğrencinin davranışına",
+                  "dair kısa ve anlamlı notlar yazılması, gelişim sürecinin takibi açısından önemlidir. Değerlendirme sonunda öğrencinin",
+                  "genel düzeyi belirlenebilir.",
+                  "Öğrencinin Adı Soyadı:                                          Değerlendirme Tarihi:"
+                ]
+              }
+            ],
+            "theme_description": "FİZİKSEL AKTİVİTE Temada, öğrencilerin fiziksel aktiviteye yardımcı egzersiz araç gereci ile teknoloji destekli uygulamaları tanımaları, bu araçları yönergeler ve rehberlik eşliğinde kullanmayı öğrenmeleri ve zamanla bağımsız kullanabilme becerisi kazanmaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c65fd66a31020651419_BEDEN_EGITIMI_OYUN_VE_SPOR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 42
+          }
+        ]
+      },
+      {
+        "course_id": "gorsel_sanatlar",
+        "course_name": "Görsel Sanatlar",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "ÇİZİM VE ŞEKİLLERLE SANAT",
+            "outcomes": [
+              {
+                "outcome_code": "GS1.1.",
+                "outcome_text": "Çizim çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS1.2.",
+                "outcome_text": "Parça bütün çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS1.3.",
+                "outcome_text": "Şekillendirme malzemeleriyle sanatsal ürün oluşturabilme",
+                "process_components": [
+                  "Şekillendirme araç gerecini ifade eder.",
+                  "Şekillendirme çalışmalarını sanatsal ürüne dönüştürür."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin çizim, parça-bütün, şekillendirme araç ve gerecini tanı- maları, çizim tekniklerini öğrenmeleri ve kendi performans düzeylerine uygun çalışmalar yapabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1.Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c665067fe2725633792_GORSEL_SANATLAR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 13
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "RENKLERDEN SANATA",
+            "outcomes": [
+              {
+                "outcome_code": "GS2.1.",
+                "outcome_text": "Renkleri kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS2.2.",
+                "outcome_text": "Boyama çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS2.3.",
+                "outcome_text": "Baskı çalışmaları ile sanatsal ürün oluşturabilme",
+                "process_components": [
+                  "Baskı çalışmalarında kullanılan araç gereci ifade eder.",
+                  "Baskı çalışmalarını sanatsal ürüne dönüştürür."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin renkleri tanıyabilmesi, ana renkleri karıştırarak ara renk- ler elde edebilmesi, çevresindeki nesnelerin renklerini doğadaki örnekleriyle karşılaştırması, boya tür ve tekniklerini öğrenebilmesi amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c665067fe2725633792_GORSEL_SANATLAR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 18
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "NESNELERDEN SANATA",
+            "outcomes": [
+              {
+                "outcome_code": "GS3.1.",
+                "outcome_text": "Yırtma-yapıştırma çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS3.2.",
+                "outcome_text": "Katlama çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS3.3.",
+                "outcome_text": "Kesme çalışmaları yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS3.4.",
+                "outcome_text": "Üç boyutlu çalışmalar yaparak sanatsal ürün oluşturabilme",
+                "process_components": [
+                  "Üç boyutlu çalışmalarda kullanılan araç gereci ifade eder.",
+                  "Üç boyutlu çalışmalarını sanatsal ürüne dönüştürür."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin yırtma-yapıştırma, katlama ve kesme çalışmaları yapma- ları, hazır kil, atık malzeme gibi farklı materyallerle üç boyutlu modellemeler oluşturmaları ve özgün sanatsal ürünler üretmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1.Temel Beceri",
+            "tendencies_text": "E1.1. Merak, E3.2. Odaklanma, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c665067fe2725633792_GORSEL_SANATLAR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 24
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "HAYAT VE SANAT",
+            "outcomes": [
+              {
+                "outcome_code": "GS4.1.",
+                "outcome_text": "Gösterilen sanat çalışmalarına ilişkin sanatsal betimleme yapabilme",
+                "process_components": [
+                  "Gösterilen sanatsal çalışmanın hangi sanat alanına ait olduğunu tespit eder.",
+                  "Gösterilen sanat çalışmasının özelliklerini ifade eder."
+                ]
+              },
+              {
+                "outcome_code": "GS4.2.",
+                "outcome_text": "Ören yeri, müze, sergi salonu gibi alanların kurallarına uyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "GS4.3.",
+                "outcome_text": "Yaptığı çalışmalar ile sergi ve yarışmalara katılabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada öğrencilerin sanat çalışmalarına ilişkin görsel sanat okuması yapma- ları, ören yeri, müze, sergi salonu gibi alanlardaki kurallara uymaları ve sergi ile yarışmalara katılmaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceri",
+            "tendencies_text": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E1.6. Seçicilik, E2.2. Sorumluluk, E3.2. Odaklanma, E3.3 Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.4",
+                "name": "Kendine İnanma (Öz Yeterlilik)"
+              },
+              {
+                "code": "E1.5",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E1.6",
+                "name": "Seçicilik"
+              },
+              {
+                "code": "E2.2",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c665067fe2725633792_GORSEL_SANATLAR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 30
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "DİJİTAL SANAT",
+            "outcomes": [
+              {
+                "outcome_code": "GS5.1.",
+                "outcome_text": "Fotoğraf ve video çekerek sanatsal ürün oluşturabilme",
+                "process_components": [
+                  "Fotoğraf ve video çekmek için kullanılan araçları ifade eder.",
+                  "Fotoğraf ve video çekimi yaparak sanatsal ürüne dönüştürür."
+                ]
+              },
+              {
+                "outcome_code": "GS5.2.",
+                "outcome_text": "Dijital araçlarla sanatsal ürün oluşturabilme",
+                "process_components": [
+                  "Dijital sanat çalışmalarında kullanılan araç gereci ifade eder.",
+                  "Dijital araçları kullanarak yaptığı çalışmaları eskize, kompozisyona veya sanatsal ürüne dönüştürür."
+                ]
+              }
+            ],
+            "theme_description": "Temada öğrencilerin çevrelerini gözlemleyerek fotoğraf ve video çekmeleri ve çeşitli program, yazılım ile uygulamalar gibi dijital araçları kullanarak çizim, ta- sarım, kolaj gibi sanatsal ürünler oluşturmaları amaçlanmaktadır.",
+            "conceptual_skills_text": "",
+            "tendencies_text": "E.1.1. Merak, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c665067fe2725633792_GORSEL_SANATLAR_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 34
+          }
+        ]
+      },
+      {
+        "course_id": "hayat_bilgisi_ve_gunluk_yasam_becerileri",
+        "course_name": "Hayat Bilgisi ve Günlük Yaşam Becerileri",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "BEN VE OKULUM",
+            "outcomes": [
+              {
+                "outcome_code": "HBGYB1.1.",
+                "outcome_text": "",
+                "process_components": [
+                  "Vücudunu tanıyabilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB1.2.",
+                "outcome_text": "",
+                "process_components": [
+                  "Kişisel bilgilerini ifade edebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB1.3.",
+                "outcome_text": "",
+                "process_components": [
+                  "Sınıf ve okul ortamını tanıyabilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB1.4.",
+                "outcome_text": "",
+                "process_components": [
+                  "Sınıf ve okul ortamında kurallara uygun davranışlar sergileyebilme"
+                ]
+              }
+            ],
+            "theme_description": "",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.3. Azim ve Kararlılık, E1.5. Öz Güven, E2.4. Güven, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.3",
+                "name": "Azim ve Kararlılık"
+              },
+              {
+                "code": "E1.5",
+                "name": "Öz Güven"
+              },
+              {
+                "code": "E2.4",
+                "name": "Güven"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "697c666c72415403372981_HAYAT_BILGISI_VE_GUNLUK_YASAM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 15
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "AİLEM VE TOPLUM",
+            "outcomes": [
+              {
+                "outcome_code": "HBGYB2.1.",
+                "outcome_text": "",
+                "process_components": [
+                  "Aile bireylerini tanıyabilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB2.2.",
+                "outcome_text": "",
+                "process_components": [
+                  "Evin bölümlerini ve evde kullanılan eşyaları çözümleyebilme",
+                  "a) Evin bölümlerini ve evde kullandığı eşyaları belirler.",
+                  "b) Evin bölümlerini ve bu bölümlerde kullanılan eşyaları ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB2.3.",
+                "outcome_text": "",
+                "process_components": [
+                  "Meslekleri ve mesleklerin özelliklerini çözümleyebilme",
+                  "a) Meslekleri ve mesleklerin özelliklerini belirler.",
+                  "b) Meslekleri ve mesleklerin özelliklerini ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB2.4.",
+                "outcome_text": "",
+                "process_components": [
+                  "Ulaşım araçları ve türlerini ayırt edebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB2.5.",
+                "outcome_text": "",
+                "process_components": [
+                  "Ailede uyulması gereken kurallara uygun davranışlar sergileyebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB2.6.",
+                "outcome_text": "",
+                "process_components": [
+                  "Toplumsal alanlarda kurallara uygun davranışlar sergileyebilme"
+                ]
+              }
+            ],
+            "theme_description": "",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+            "tendencies_text": "E2.5. Oyunseverlik, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.7",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "697c666c72415403372981_HAYAT_BILGISI_VE_GUNLUK_YASAM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 20
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "YAŞADIĞIM YER VE ÜLKEM",
+            "outcomes": [
+              {
+                "outcome_code": "HBGYB3.1.",
+                "outcome_text": "",
+                "process_components": [
+                  "Yaşadığı yerin genel özelliklerini ifade edebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB3.2.",
+                "outcome_text": "",
+                "process_components": [
+                  "Ülkemizin ortak değerlerini ifade edebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB3.3.",
+                "outcome_text": "",
+                "process_components": [
+                  "Mustafa Kemal Atatürk’ü tanıyabilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB3.4.",
+                "outcome_text": "",
+                "process_components": [
+                  "Millî gün ve bayramların önemine uygun davranışlar sergileyebilme"
+                ]
+              }
+            ],
+            "theme_description": "",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.8. Soru Sorma",
+            "tendencies": [
+              {
+                "code": "E1.5",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.8",
+                "name": "Soru Sorma"
+              }
+            ],
+            "source_pdf": "697c666c72415403372981_HAYAT_BILGISI_VE_GUNLUK_YASAM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 26
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "DOĞA VE ÇEVRE",
+            "outcomes": [
+              {
+                "outcome_code": "HBGYB4.1.",
+                "outcome_text": "",
+                "process_components": [
+                  "Doğadaki varlıkları ayırt edebilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB4.2.",
+                "outcome_text": "",
+                "process_components": [
+                  "Günlük yaşamında zaman kavramlarını uygun bir şekilde kullanabilme"
+                ]
+              },
+              {
+                "outcome_code": "HBGYB4.3.",
+                "outcome_text": "",
+                "process_components": [
+                  "Güneş, Dünya ve Ay’ın özelliklerini çözümleyebilme",
+                  "a) Güneş, Dünya ve Ay’ın özelliklerini belirler.",
+                  "b) Güneş, Dünya ve Ay’ın özelliklerini ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB4.4.",
+                "outcome_text": "",
+                "process_components": [
+                  "Mevsimleri ve mevsimlerin özelliklerini çözümleyebilme",
+                  "a) Mevsimleri ve mevsimlerin özelliklerini belirler.",
+                  "b) Mevsimleri ve mevsimlerin özelliklerini ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB4.5.",
+                "outcome_text": "",
+                "process_components": [
+                  "Afet türlerini ve etkilerini çözümleyebilme",
+                  "a) Afet türlerini ve afetlerin etkilerini belirler.",
+                  "b) Afet türlerini ve afetlerin etkilerini ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB4.6.",
+                "outcome_text": "",
+                "process_components": [
+                  "Çevre temizliğine ilişkin kurallara uygun davranışlar sergileyebilme"
+                ]
+              }
+            ],
+            "theme_description": "",
+            "conceptual_skills_text": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+            "tendencies_text": "E1.2. Bağımsızlık, E2.1 Empati, E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.5. Açık Fikirlilik",
+            "tendencies": [
+              {
+                "code": "E1.2",
+                "name": "Bağımsızlık"
+              },
+              {
+                "code": "E2.2",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.5",
+                "name": "Açık Fikirlilik"
+              }
+            ],
+            "source_pdf": "697c666c72415403372981_HAYAT_BILGISI_VE_GUNLUK_YASAM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 31
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "BİLİM, TEKNOLOJİ VE SANAT",
+            "outcomes": [
+              {
+                "outcome_code": "HBGYB5.1.",
+                "outcome_text": "",
+                "process_components": [
+                  "İş birliği içinde basit bir deneyi yapabilme.",
+                  "a) Mevcut bir deneyi gözlemleyerek deney tasarlar.",
+                  "b) Gözlemlerine dayanarak deneyi çözümler."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB5.2.",
+                "outcome_text": "",
+                "process_components": [
+                  "Teknolojik ürünleri ve bu ürünlerin işlevsel özelliklerini çözümleyebilme",
+                  "a) Teknolojik ürünleri belirler.",
+                  "b) Teknolojik ürünlerin işlevsel özelliklerini belirler.",
+                  "c) Teknolojik ürünleri ve bu ürünlerin işlevsel özelliklerini ilişkilendirir."
+                ]
+              },
+              {
+                "outcome_code": "HBGYB5.3.",
+                "outcome_text": "",
+                "process_components": [
+                  "Sanatsal etkinliklere ilişkin deneyimlerini yansıtabilme",
+                  "a) Sanatsal etkinliğe ilişkin deneyimini ifade eder.",
+                  "b) Sanatsal etkinlik deneyimine ilişkin çıkarım yapar",
+                  "c) Sanatsal etkinlik deneyimine ilişkin değerlendirme yapar."
+                ]
+              }
+            ],
+            "theme_description": "",
+            "conceptual_skills_text": "KB2.4. Çözümleme, KB2.15. Yansıtma",
+            "tendencies_text": "E1.1. Merak, E2.2. Sorumluluk, E3.1. Uzmanlaşma, E3.2. Odaklanma, E3.4. Ger çeği Arama",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.2",
+                "name": "Sorumluluk"
+              },
+              {
+                "code": "E3.1",
+                "name": "Uzmanlaşma"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.4",
+                "name": "Ger çeği Arama"
+              }
+            ],
+            "source_pdf": "697c666c72415403372981_HAYAT_BILGISI_VE_GUNLUK_YASAM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 36
+          }
+        ]
+      },
+      {
+        "course_id": "iletisim_becerileri",
+        "course_name": "İletişim Becerileri",
+        "applicable_grade_levels": [
+          1,
+          2
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "İLETİŞİME BAŞLIYORUM",
+            "outcomes": [
+              {
+                "outcome_code": "İB1.1.",
+                "outcome_text": "İletişim bağlamında tepki verebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB1.2.",
+                "outcome_text": "Temel iletişim becerilerini kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB1.3.",
+                "outcome_text": "İletişim bağlamında taklit edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB1.4.",
+                "outcome_text": "İletişim bağlamında jest kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB1.5.",
+                "outcome_text": "İletişim bağlamında rutinlere uyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "“İletişime Başlıyorum” temasında öğrencilerin iletişim bağlamında tepki verebilmeleri, temel ile tişim becerilerini kullanabilmeleri, iletişim bağlamında taklit edebilmeleri, iletişim bağlamında jest kullanabilmeleri ve iletişim bağlamında rutinlere uyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.7",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "697c66852f0a2302348644_ILETISIM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 14
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "DÜNYAYI ANLIYORUM, ANLAMLANDIRIYORUM",
+            "outcomes": [
+              {
+                "outcome_code": "İB2.1.",
+                "outcome_text": "Vücudunun bölümlerini ve çevresindeki nesne isimlerini ve eylemleri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB2.2.",
+                "outcome_text": "Nesneleri, eylemleri sınıflandırabilme ve ilişkilendirebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "“Dünyayı Anlıyorum, Anlamlandırıyorum” temasında öğrencilerin vücudunun bölümleri ve çev resindeki nesne isimlerini ve eylemleri ayırt edebilmeleri, vücudunun bölümleri ve çevresindeki nesne isimlerini ve eylemleri adlandırmaları ve nesneler ve kavramlar arası ilişkilendirme yapabil meleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "697c66852f0a2302348644_ILETISIM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 20
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "BEN KİMİM?",
+            "outcomes": [
+              {
+                "outcome_code": "İB3.1.",
+                "outcome_text": "Sorulduğunda kendini tanıtabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB3.2.",
+                "outcome_text": "Tercihlerini belirtebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB3.3.",
+                "outcome_text": "Duygu ve düşünceleri ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB3.4.",
+                "outcome_text": "Değişen durumlar doğrultusunda eylemleri düzenleyebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "“Ben Kimim?” temasında öğrencilerin sorulduğunda kendilerini tanıtabilmeleri, tercihlerini ifade edebilmeleri, duygu ve düşüncelerini açıklayabilmeleri ve değişen durumlar doğrultusunda ey lemlerini düzenleyebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E.1.1. Merak, E1.6. Seçicilik, E2.3. Girişkenlik, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.6",
+                "name": "Seçicilik"
+              },
+              {
+                "code": "E2.3",
+                "name": "Girişkenlik"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "697c66852f0a2302348644_ILETISIM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 24
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "OYUN OYNUYORUM",
+            "outcomes": [
+              {
+                "outcome_code": "İB4.1.",
+                "outcome_text": "Bağlama uygun oyun oynayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB4.2.",
+                "outcome_text": "Etkileşime dayalı oyun türlerine katılabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB4.3.",
+                "outcome_text": "Şarkı veya tekerleme söyeyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB4.4.",
+                "outcome_text": "Drama etkinliğinde rol alabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "“Oyun Oynuyorum” temasında öğrencilerin bağlama uygun oyun oynamaları, etkileşime dayalı oyun türlerine katılmaları, şarkı ve tekerleme söylemeleri ve drama etkinliklerinde rol almaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.2. Bağımsızlık, E2.5. Oyunseverlik, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.7. Sistematiklik",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.2",
+                "name": "Bağımsızlık"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              },
+              {
+                "code": "E3.6",
+                "name": "Analitiklik"
+              },
+              {
+                "code": "E3.7",
+                "name": "Sistematiklik"
+              }
+            ],
+            "source_pdf": "697c66852f0a2302348644_ILETISIM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 29
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "BİRLİKTE KONUŞALIM",
+            "outcomes": [
+              {
+                "outcome_code": "İB5.1.",
+                "outcome_text": "İletişim bağlamında uygun dil kullanarak sohbet edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "İB5.2.",
+                "outcome_text": "İletişim bağlamında sohbete katılabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "“Birlikte Konuşalım” temasında öğrencilerin iletişim bağlamlarına uygun dil kullanmaları, farklı iletişim ortamlarında sohbet başlatabilmeleri, sohbeti sürdürebilmeleri ve başkalarının başlattığı sohbetlere uygun şekilde katılabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E3.1. Muhakeme",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E3.1",
+                "name": "Muhakeme"
+              }
+            ],
+            "source_pdf": "697c66852f0a2302348644_ILETISIM_BECERILERI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 35
+          }
+        ]
+      },
+      {
+        "course_id": "muzik",
+        "course_name": "Müzik",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "MÜZİKSEL ALGI",
+            "outcomes": [
+              {
+                "outcome_code": "MÜZ1.1.",
+                "outcome_text": "Doğadan/çevreden/nesnelerden duyulan seslerin kaynağına yönelebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ1.2.",
+                "outcome_text": "Müziksel İşitebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ1.3.",
+                "outcome_text": "Müzikte ses farklılıklarını ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ1.4.",
+                "outcome_text": "Müzikte tempo değişimlerini ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ1.5.",
+                "outcome_text": "Müziğin ilettiği duyguyu ifade edebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada öğrencilerin doğadan, çevreden ve nesnelerden gelen seslerin kaynağına yönelebilmeleri, müziksel işitebilmeleri, müzikteki ses farklılıklarını ayırt edebilmeleri, müzikte tempo değişimlerini ayırt edebilmeleri ve müziğin ilettiği duyguyu ifade ede bilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceri",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c66b10a23f514873076_MUZIK_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 13
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "MÜZİKSEL İFADE",
+            "outcomes": [
+              {
+                "outcome_code": "MÜZ2.1.",
+                "outcome_text": "Müzik eserlerine bedensel hareketlerle eşlik edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.2.",
+                "outcome_text": "Müzikli oyun çalışmalarını sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.3.",
+                "outcome_text": "Ritim çalgılarını çalabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.4.",
+                "outcome_text": "Şarkı söyleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.5.",
+                "outcome_text": "Farklı bölgelerin halk oyunlarını sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.6.",
+                "outcome_text": "Geleneksel müzikli oyunları oynayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ2.7.",
+                "outcome_text": "Basit ritim çalgıları tasarlayabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada öğrencilerin müzik eserlerini bedensel hareketlerle sergileyebilmeleri, müzikli oyun çalışmalarını sergileyebilmeleri, ritim çalgılarını çalabilmeleri, şarkı söyleyebilmeleri, farklı bölgelerin halk oyunlarını sergileyebilmeleri, geleneksel müzikli oyunları oynayabilmeleri ve basit ritim aletleri tasarlayabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceri",
+            "tendencies_text": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlik), E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.4",
+                "name": "Kendine İnanma (Öz Yeterlik)"
+              },
+              {
+                "code": "E1.5",
+                "name": "Kendine Güvenme (Öz Güven)"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              },
+              {
+                "code": "E3.3",
+                "name": "Yaratıcılık"
+              }
+            ],
+            "source_pdf": "697c66b10a23f514873076_MUZIK_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 19
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "MÜZİK KÜLTÜRÜ",
+            "outcomes": [
+              {
+                "outcome_code": "MÜZ3.1.",
+                "outcome_text": "Farklı türlerde müzik eserlerini ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.2.",
+                "outcome_text": "İstiklâl Marşı’nı kurallarına uygun dinleyebilme ve söyleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.3.",
+                "outcome_text": "Millî ve manevi günler ile ilgili müzikleri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.4.",
+                "outcome_text": "Ülkesindeki müzisyenleri tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.5.",
+                "outcome_text": "Temel ses teknolojisi araçlarını belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.6.",
+                "outcome_text": "Müzik aletlerini ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.7.",
+                "outcome_text": "Müzik aletlerini koruyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "MÜZ3.8.",
+                "outcome_text": "Müzik aletlerini çalınış özelliklerine göre ayırt edebilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Temada öğrencilerin farklı türlerde müzik eserlerini ayırt edebilmeleri, İstiklâl Marşı’nı kurallarına uygun dinleyebilmeleri ve söyleyebilmeleri, millî ve manevî günlerle ilgili müzikleri ayırt edebilmeleri, ülkesindeki müzisyenleri tanıyabilmeleri, temel ses teknolojisi araçlarını belirleyebilmeleri, müzik aletlerini tanıyıp koruyabilmeleri ve müzik aletlerini çalınış özelliklerine göre ayırt edebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E2.5. Oyunseverlik, E3.4. Gerçeği Arama, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E1.4",
+                "name": "Kendine İnanma (Öz Yeterlilik)"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.4",
+                "name": "Gerçeği Arama"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "697c66b10a23f514873076_MUZIK_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 26
+          }
+        ]
+      },
+      {
+        "course_id": "din_kulturu_ve_ahlak_bilgisi",
+        "course_name": "Din Kültürü ve Ahlak Bilgisi",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "İNANÇ",
+            "outcomes": [
+              {
+                "outcome_code": "DKAB1.1.",
+                "outcome_text": "Allah’ın var ve bir olduğunu söyleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB1.2.",
+                "outcome_text": "Günlük hayatta kullanılan dinî ifadeleri tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB1.3.",
+                "outcome_text": "Sübhaneke duasını tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB1.4.",
+                "outcome_text": "İhlas suresini tanıyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "İnanç temasında; öğrencilerin Allah’ın var ve bir olduğunu ifade edebilmeleri, günlük hayatta kullanılan dinî ifadeleri tanıyabilmeleri, Sübhaneke duası ile İhlas suresini tanıyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E3.8. Soru Sorma, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E3.8",
+                "name": "Soru Sorma"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "6980aa91dbc49893938678_DIN_KULTURU_VE_AHLAK_BILGISI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 16
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "İBADET",
+            "outcomes": [
+              {
+                "outcome_code": "DKAB2.1.",
+                "outcome_text": "İbadetin ne olduğunu tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB2.2.",
+                "outcome_text": "Namaz ibadetinin ne olduğunu ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB2.3.",
+                "outcome_text": "Oruç ile ilgili temel kavramları ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB2.4.",
+                "outcome_text": "Zekâtın ne olduğunu ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB2.5.",
+                "outcome_text": "Hac ibadeti ile ilgili başlıca özellikleri ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB2.6.",
+                "outcome_text": "Kevser suresini tanıyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "İbadet temasında, öğrencilere İslam dinine ait başlıca ibadetler olan namaz, oruç, zekât ve hac ile ilgili temel bilgilerin kazandırılması ve öğrencilerin Kevser suresini tanıyarak söyleyebilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "6980aa91dbc49893938678_DIN_KULTURU_VE_AHLAK_BILGISI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 21
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "DİN ve HAYAT",
+            "outcomes": [
+              {
+                "outcome_code": "DKAB3.1.",
+                "outcome_text": "Allah ve peygamber sevgisini ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.2.",
+                "outcome_text": "Yakın çevresiyle olumlu ilişkiler kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.3.",
+                "outcome_text": "Çevresindeki canlılara sevgisini gösterebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.4.",
+                "outcome_text": "İslam dininin temizliğe verdiği önemi ifade edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.5.",
+                "outcome_text": "Çevresini temiz tutabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.6.",
+                "outcome_text": "İslam dininin öğütlediği davranışları ifade edip sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB3.7.",
+                "outcome_text": "Görgü kurallarına uyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Din ve hayat temasında; Allah ve Peygamber sevgisi, yakın çevresine sevgisini gösterme yolları, hayvan ve doğa sevgisi, temizlik, İslam’ın öğütlediği ahlaki davranışlar ve görgü kuralları konuları ele alınmaktadır. Öğrencilerin, Allah’ın tüm varlıkları sevdiğini, Allah’a ve Hz. Muhammed’e (sav) yönelik sevgilerini ifade edebilmeleri; öğrencilerin, yakın çevresinde yer alan aile üyeleri, öğretmenleri ve arkadaşlarına sevgilerini göstermenin çeşitli yolları olduğunu ifade etmeleri; canlıları koruyarak, onlara olan sevgilerini gösterebilmeleri; İslam dininin temizliğe verdiği önemi, Müslümanın temiz olması gerektiğini, kişisel temizlikte yapılması gerekenleri ifade edebilmeleri; toplumsal yaşam alanında, yemek yerken, konuşurken, izin isterken ve ziyaretlerinde görgü kurallarına uymaları amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1.Merak, E2.1. Empati, E2.5. Oyunseverlik, E3.2. Odaklanma",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.1",
+                "name": "Empati"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              },
+              {
+                "code": "E3.2",
+                "name": "Odaklanma"
+              }
+            ],
+            "source_pdf": "6980aa91dbc49893938678_DIN_KULTURU_VE_AHLAK_BILGISI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 27
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "KUR’AN ve PEYGAMBER",
+            "outcomes": [
+              {
+                "outcome_code": "DKAB4.1.",
+                "outcome_text": "Hz. Muhammed’in (sav) Peygamber olduğunu ve en güzel örnek olduğunu ifade edebilme.",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB4.2.",
+                "outcome_text": "Kur’an-ı Kerim’i tanıyabilme",
+                "process_components": []
+              }
+            ],
+            "theme_description": "Kur’an ve Peygamber temasında öğrencilerin; Hz. Muhammed (sav)’in peygamber olduğunu bilmeleri, Hz. Muhammed (sav)’in en güzel örnek olduğunu ifade edebilmeleri ve Kur’an-ı Kerim’i tanıyabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1 Merak",
+            "tendencies": [],
+            "source_pdf": "6980aa91dbc49893938678_DIN_KULTURU_VE_AHLAK_BILGISI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 36
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "KÜLTÜR",
+            "outcomes": [
+              {
+                "outcome_code": "DKAB5.1.",
+                "outcome_text": "İslam dinine ait kutsal mekân ve ibadet yerlerini tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB5.2.",
+                "outcome_text": "İslam’da dinî gün ve geceleri tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "DKAB5.3.",
+                "outcome_text": "Millî ve manevî değerlere sevgi ve saygı gösterebilme",
+                "process_components": [
+                  "DEĞERLENDİRME ARAÇLARI ÖZ DEĞERLENDİRME FORMU",
+                  "Bu form kendinizi değerlendirebilmeniz amaçıyla yapılmıştır. Kendinize uygun seçeneğe (X) işareti koyunuz.",
+                  "Ad Soyadı:                                                                                   Tarih:",
+                  "Davranış Ölçütleri",
+                  "Her Zaman",
+                  "Hiçbir Zaman",
+                  "Kahvaltı yapmadan önce bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Evden çıkarken bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Su içmeden önce bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Öğle yemeği yemeden önce bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Servise binmeden önce bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Akşam yemeği yemeden önce bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Yataktan kalkarken bismillahirrahmanirrahîm/ bismillah dedim.",
+                  "Dinî İfadeler ve Nezaket İfadeleri",
+                  "Öğrenci Davranış Kontrol Listesi",
+                  "Ad Soyadı:",
+                  "Öğrenci davranış kontrol listesinde verilen ifadeleri kullanarak davranışları göstermesi durumunda evet seçeneği, gösterilmemesi",
+                  "durumunda hayır seçeneğini işaretleyerek öğrenci davranışlarını değerlendiriniz.",
+                  "Davranış Ölçütleri",
+                  "Yemek yemeden önce “bismillahirrahmanirrahîm” ya da “bismillah” der.",
+                  "Yemeğini bitirdikten sonra \"Çok şükür./Elhamdülillah!\" der.",
+                  "Su içmeden önce “bismillahirrahmanirrahîm” ya da “bismillah” der.",
+                  "Su içtikten sonra \"Çok şükür./Elhamdülillah!\" der.",
+                  "Hapşırdığında \"Çok şükür./Elhamdülillah!\" der.",
+                  "Notları:............................................................................................................................................................................",
+                  "....................................................",
+                  "PERFORMANS GÖREVİ",
+                  "Sorumluluk Takvimi",
+                  "Yönerge: Öğrencinin kişisel temizlik rutinlerinin takip edilmesi için hazırlanmıştır. Gerçekleştirilen kişisel temizlik becerisinin yer aldığı",
+                  "sütundaki gülen yüzü işaretlemesi/boyaması istenmektedir.",
+                  "Çok iyi",
+                  "Hangilerini yaptım?",
+                  "Uyandıktan sonra elimi ve yüzümü yıkadım.",
+                  "Dişlerimi fırçaladım.",
+                  "Tuvalete girdikten sonra ellerimi yıkadım.",
+                  "Tırnaklarımı kestim.",
+                  "Saçlarımı taradım.",
+                  "Yemekten önce ve sonra ellerimi yıkadım.",
+                  "Aşağıda verilen ifadelerin karşısına durumunuza uygun olan alanı (X) ile işaretleyiniz.",
+                  "Her Zaman",
+                  "Hiçbir zaman",
+                  "Uyandıktan sonra yatağımı toplarım.",
+                  "Dışarıdan eve gelince ellerimi yıkarım.",
+                  "Dişlerimi günde iki kere fırçalarım.",
+                  "Yemekten önce ve sonra ellerimi yıkarım.",
+                  "Tırnaklarımı keserim.",
+                  "Tuvaletten sonra ellerimi yıkarım.",
+                  "Çöpleri çöp kutusuna atarım.",
+                  "HİKÂYE HARİTASI",
+                  "Gülümseyen Peygamberimiz",
+                  "Ben bir çocuğum. Bazen üzülürüm, bazen sevinirim. Ama iyi bir insan olmak isterim. Peygamber Efendimizin adı",
+                  "Muhammed’dir. O, insanlara iyiliği ve sevgiyi öğretmiştir. O, çocukları çok severdi. Herkese güler yüz gösterirdi. Bir",
+                  "gün, küçük bir çocuk sokakta oynuyordu. Peygamber Efendimiz, çocuğun yanına geldi. Ona gülümsedi ve başını",
+                  "okşadı.",
+                  "-“Nasılsın küçük dostum?” dedi.",
+                  "Çocuk çok mutlu oldu. Çünkü biri onu fark etmişti. Çünkü biri ona sevgiyle bakmıştı.",
+                  "Peygamberimiz hiç kimseye kötü söz söylemezdi. O, yalan söylemezdi. Kavga etmezdi. İnsanlara yardım eder,",
+                  "yaşlılara saygı gösterirdi. Hayvanları severdi, onları korurdu. Ben de Peygamberimizi örnek alabilirim. Güler",
+                  "yüzlü olabilirim. Kimseyi üzmem. Yardım ederim. Sevgiyle konuşurum. Çünkü ben de iyi bir insan olabilirim. Tıpkı",
+                  "Peygamberimiz gibi.",
+                  "Aşağıdaki hikâye haritasını doldurunuz.",
+                  "Bu öykü Bana Ne Öğretti?",
+                  "Gülümsemek güzeldir.",
+                  "Yardım etmek bizi mutlu eder.",
+                  "Herkes sevgiye ve ilgiye ihtiyaç duyar.",
+                  "Peygamberimiz Hz. Muhammed (sav), bize güzel davranışları öğretmiştir.",
+                  "Aşağıdaki sorular, “Gülümseyen Peygamberimiz” adlı sosyal öyküyü dinledikten veya",
+                  "okuduktan sonra, Peygamber Efendimizin güzel davranışlarını ne kadar anladığımızı",
+                  "görmek içindir. Soruları dikkatlice okuyup (dinleyip) cevaplayalım.",
+                  "Kısa Uçlu Sorular",
+                  "1. Peygamber Efendimizin adı nedir?",
+                  "2. Peygamber Efendimiz çocukları sever miydi?",
+                  "3. Peygamberimiz insanlara nasıl davranırdı?",
+                  "4. Peygamberimiz insanlara yardım eder miydi?",
+                  "5. Peygamberimiz hayvanları sever miydi?",
+                  "6. Peygamberimiz kötü söz söyler miydi?",
+                  "7. Güler yüzlü olmak güzel bir davranış mıdır?",
+                  "8. Biz de Peygamberimizi örnek alabilir miyiz?",
+                  "9. Öyküde Peygamberimiz çocuğa nasıl davrandı?",
+                  "10. Bu öykü bize neyi öğretiyor?",
+                  "ÖZ DEĞERLENDİRME FORMU",
+                  "PEYGAMBER EFENDİMİZİN ÖRNEK OLDUĞU GÜZEL DAVRANIŞLARI UYGULAMA",
+                  "Aşağıda, Peygamber Efendimiz Hz. Muhammed’in (sav) hayatında örnek teşkil eden bazı davranışlarla ilgili sorular bulunmaktadır. Her bir",
+                  "davranışı ne kadar benimsediğinizi ve hayata geçirmeye çalıştığınızı değerlendirebilmeniz için kendinizi bunu her zaman yaparım için       ,",
+                  "“bunu bazen yaparım” için       , “bunu hiçbir zaman yapmam  için          ifadesinin bulunduğu sütunu işaretleyiniz. Ayrıca her bir davranışla",
+                  "ilgili kısa bir açıklama ekleyebilirsiniz.",
+                  "(HER ZAMAN)",
+                  "(HİÇBİR ZAMAN)",
+                  "Peygamber Efendimiz, maddi ve manevî olarak ihtiyaç sahiplerine yardım etmeyi çok",
+                  "önemsemiştir. Ben de çevremdeki insanlara yardım etmeye özen gösteriyorum.",
+                  "GÜLER YÜZLÜLÜK",
+                  "Peygamber Efendimiz, her zaman güler yüzlü olmuş, insanlara sıcak yaklaşmıştır. Ben de",
+                  "insanlarla iletişimde güler yüzlü olmayı hedefliyorum.",
+                  "SABIRLI OLMAK",
+                  "Peygamber Efendimiz, zorluklar karşısında büyük bir sabır sergilemiştir. Ben de zor",
+                  "durumlarla karşılaştığımda sabırlı olmaya çalışıyorum.",
+                  "ÇALIŞKANLIK VE TEMİZLİK",
+                  "Peygamber Efendimiz, her işini büyük bir titizlik ve çalışkanlıkla yapmıştır. Ben de",
+                  "günlük işlerimde düzenli ve temiz olmaya gayret ediyorum.",
+                  "DÜRÜSTLÜK VE HAKKANİYET",
+                  "Peygamber Efendimiz, her zaman doğruyu söylemiş ve adaletten ayrılmamıştır.",
+                  "Ben de hayatımda dürüstlüğü esas almaya çalışıyorum.",
+                  "AFFETMEK VE HOŞGÖRÜLÜLÜK",
+                  "Peygamber Efendimiz, kendisine yapılan kötülüklere karşı bile affedici olmuştur. Ben de",
+                  "kırgınlıklarımı kolayca unutmaya ve insanlara karşı anlayışlı olmaya gayret ediyorum.",
+                  "DUA ETMEK VE ALLAH’A YÖNELMEK",
+                  "Peygamber Efendimiz, her zaman Allah’a dua etmiş ve O’na yönelmiştir. Ben de dua",
+                  "etmeyi ve Allah’a güvenmeyi hayatımda bir alışkanlık haline getirmeye çalışıyorum.",
+                  "AİLEYE VE ÇEVREYE SAYGI",
+                  "Peygamber Efendimiz, ailesine ve çevresine büyük bir saygı göstermiştir. Ben de",
+                  "aileme ve çevreme saygılı olmaya özen gösteriyorum.",
+                  "KENDİNİ GELİŞTİRME VE BİLGİYE ÖNEM VERME",
+                  "Peygamber Efendimiz, sürekli olarak kendini geliştirmeye ve bilgiye değer vermiştir.",
+                  "Ben de sürekli olarak kendimi geliştirmeye ve yeni bilgiler öğrenmeye çalışıyorum.",
+                  "PORTFOLYO İÇİN ÖĞRETMEN DEĞERLENDİRME FORMU",
+                  "Portfolyo İçin Öğretmen Değerlendirme Formu",
+                  "Gelişim Alanları Gelişime İlişkin Düşünceler",
+                  "Gelişim Alanları Gelişime İlişkin Düşünceler",
+                  "Gözlemleme Becerisi",
+                  "Kişisel ve Sosyal Beceriler",
+                  "Portfolyo Değerlendirme Formu",
+                  "Ad Soyadı:",
+                  "Çok İyi",
+                  "Tüm çalışmalar tamamlanmış.",
+                  "Portfolyo farklı ürünleri içeriyor.",
+                  "Yeterince çalışma var.",
+                  "Çalışmalar amaçları karşılıyor.",
+                  "Yoğun çaba gösterilmiş.",
+                  "Çalışmalar minimum beklentinin üzerinde hazırlanmış.",
+                  "Çalışmalarda kişisel yansımaların izleri var.",
+                  "İlerleme ve gelişme var.",
+                  "Zayıf ve güçlü yönlerin farkındalığı var.",
+                  "Eklemek istedikleriniz:",
+                  "Genel Puan:"
+                ]
+              }
+            ],
+            "theme_description": "Kültür temasında, dinin kültüre etkisi bağlamında öğrencilerin İslam dinine ait kutsal mekân, ibadet yerleri ile dinî gün ve geceleri tanıyabilmeleri, millî bilinç sahibi olabilmeleri amaçlanmaktadır.",
+            "conceptual_skills_text": "KB1. Temel Beceriler",
+            "tendencies_text": "E1.1. Merak, E2.5. Oyunseverlik",
+            "tendencies": [
+              {
+                "code": "E1.1",
+                "name": "Merak"
+              },
+              {
+                "code": "E2.5",
+                "name": "Oyunseverlik"
+              }
+            ],
+            "source_pdf": "6980aa91dbc49893938678_DIN_KULTURU_VE_AHLAK_BILGISI_DERSI_OGRETIM_PROGRAMI.pdf",
+            "source_pdf_page": 41
+          }
+        ]
+      }
+    ]
+  }
+}

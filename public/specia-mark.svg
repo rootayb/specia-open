@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="specia-mark-cutout-black">
+      <rect width="512" height="512" fill="black"/>
+      <path d="M256 110C145.543 110 56 199.543 56 310H456C456 199.543 366.457 110 256 110Z" fill="white"/>
+      <path d="M90 310C90 218.321 164.321 144 256 144" stroke="black" stroke-width="7" stroke-linecap="round"/>
+      <path d="M122 310C122 235.379 182.379 175 257 175" stroke="black" stroke-width="11" stroke-linecap="round"/>
+      <path d="M155 310C155 253.667 200.667 208 257 208" stroke="black" stroke-width="15" stroke-linecap="round"/>
+      <path d="M190 310C190 271.893 220.893 241 259 241" stroke="black" stroke-width="19" stroke-linecap="round"/>
+      <path d="M226 310C226 290.118 242.118 274 262 274" stroke="black" stroke-width="23" stroke-linecap="round"/>
+      <path d="M250 310C250 310 250.8 309.3 252 309" stroke="black" stroke-width="27" stroke-linecap="round"/>
+    </mask>
+  </defs>
+
+  <rect width="512" height="512" fill="#000000" mask="url(#specia-mark-cutout-black)"/>
+</svg>

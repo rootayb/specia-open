@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.npm-cache
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.xcuserstate
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+mobile/ios/Config/DevSecrets.xcconfig
+mobile/android/.gradle/
+mobile/android/.idea/
+mobile/android/**/build/
+mobile/android/build/
+mobile/android/local.properties
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next-dev*.log
+.tmp-preview.pdf
+.tmp_*/
+
+# env dosyaları — gizli anahtarlar içerir, asla commit edilmez
+.env*
+!.env.example
+
+# yerel veritabanı — kişisel veriler içerir, asla commit edilmez
+prisma/dev.db
+prisma/*.db
+prisma/*.db-journal
+
+# Claude Code yerel oturum dosyaları
+.claude/projects/
+.claude/worktrees/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+.env*.local

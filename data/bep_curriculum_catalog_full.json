@@ -1,0 +1,1633 @@
+{
+  "curriculum_catalog": {
+    "version": "2025",
+    "source": "uploaded_pdfs",
+    "courses": [
+      {
+        "course_id": "matematik",
+        "course_name": "Matematik",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Sayılar ve Nicelikler (1)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT1.1",
+                "outcome_text": "Rakamları ve 200’e kadar olan sayıları (200 dâhil) tanıyabilme",
+                "process_components": [
+                  "Rakamları gösterir.",
+                  "Gösterilen rakamı söyler.",
+                  "İstenen rakamı yazar.",
+                  "1’den 200’e kadar olan sayıları gösterir.",
+                  "1’den 200’e kadar olan sayıları söyler.",
+                  "1’den 200’e kadar olan sayıları yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.2",
+                "outcome_text": "Sıralı ve karışık olarak verilen nesne/şekil/resimleri dokunarak sayabilme",
+                "process_components": [
+                  "Sıralı verilen nesneleri dokunarak sayar.",
+                  "Karışık şekilde verilen nesneleri dokunarak sayar.",
+                  "Üzerinde sıralı resimlerin/şekillerin verildiği nesne/şekil resimlerini dokunarak sayar.",
+                  "Karışık resimlerin/şekillerin verildiği nesne/şekil resimlerini dokunarak sayar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.3",
+                "outcome_text": "1’den 200’e kadar olan sayıları sıralayabilme",
+                "process_components": [
+                  "Söylenen/Verilen sayıdan sonra gelen sayıyı söyler.",
+                  "Söylenen/Verilen sayıdan sonra gelen sayıyı yazar.",
+                  "Söylenen/Verilen sayıdan önce gelen sayıyı söyler.",
+                  "Söylenen/Verilen sayıdan önce gelen sayıyı yazar.",
+                  "Sıralı sayı dizisinde eksik bırakılan sayıyı söyler.",
+                  "Sıralı sayı dizisinde eksik bırakılan sayıyı yazar.",
+                  "Karışık şekilde verilen sayıları sıralar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.4",
+                "outcome_text": "Sayılar ile nesne çoklukları arasındaki ilişkiyi matematiksel temsiller kullanarak gösterebilme",
+                "process_components": [
+                  "Bir sayıya karşılık gelen nesne çokluğunu uygun matematiksel temsille (nokta, şekil, çizgi vb.) gösterme",
+                  "Bir sayıya karşılık gelen nesne çokluğunu farklı temsil biçimleriyle (semboller çizerek) ifade etme",
+                  "Bir sayıya karşılık gelen nesne çokluğunu temsil eden matematiksel gösterimleri (rakam ve sayı) kullanma",
+                  "İki farklı nesne çokluğunun temsillerini karşılaştırarak az/çok ilişkisini yorumlama"
+                ]
+              },
+              {
+                "outcome_code": "MAT1.5",
+                "outcome_text": "İleriye ve geriye doğru ritmik sayabilme",
+                "process_components": [
+                  "200’e kadar birer ileriye doğru ritmik sayar.",
+                  "200’e kadar onar ileriye doğru ritmik sayar.",
+                  "200’e kadar beşer ileriye doğru ritmik sayar.",
+                  "20’ye kadar ikişer ileriye ritmik sayar",
+                  "30’a kadar üçer ileriye ritmik sayar.",
+                  "40’a kadar dörder ileriye ritmik sayar.",
+                  "20’den geriye doğru birer ritmik sayar.",
+                  "100’den geriye doğru onar ritmik sayar.",
+                  "50’den geriye doğru beşer ritmik sayar."
+                ]
+              },
+              {
+                "outcome_code": "MAT1.6",
+                "outcome_text": "Nesne, sayı ve şekil örüntülerini çözümleyebilme",
+                "process_components": [
+                  "Nesne, sayı ve şekil örüntülerinin ardışık ögelerini belirler.",
+                  "Nesne, sayı ve şekil örüntülerinin ardışık ögeleri arasındaki ilişkiyi belirler.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan nesneleri belirleyerek tamamlar.",
+                  "Modele bakarak üç farklı nesneden oluşan örüntüyü devam ettirir.",
+                  "Üç farklı nesneden örüntü oluşturur.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan şekilleri belirleyerek tamamlar.",
+                  "Modele bakarak üç şekilden oluşan örüntüyü devam ettirir.",
+                  "Üç farklı şekilden örüntü oluşturur.",
+                  "Üç örüntü tekrarından oluşan bir örüntüde eksik bırakılan sayıları belirleyerek tamamlar.",
+                  "Modele bakarak üç farklı sayıdan oluşan örüntüyü devam ettirir.",
+                  "Üç farklı sayıdan örüntü oluşturur."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Sayılar ve Nicelikler (2)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT2.1",
+                "outcome_text": "Standart olmayan ölçme araçları ile uzunluk ölçebilme",
+                "process_components": [
+                  "Gösterilen nesneyi karışla/ayakla/adımla ölçer.",
+                  "Karışla/ayakla/adımla ölçtüğü nesnenin, kaç karış/ayak/adım olduğunu söyler.",
+                  "Karışla/ayakla/adımla ölçtüğü nesnenin, kaç karış/ayak/adım olduğunu yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.2",
+                "outcome_text": "Standart olan ölçme araçları ile uzunluk ölçebilme",
+                "process_components": [
+                  "Cetvelle ölçüm yapar.",
+                  "Ölçtüğü nesneyi cm birimiyle ifade eder."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.3",
+                "outcome_text": "Standart olmayan ölçme araçları ile kütle ölçebilme",
+                "process_components": [
+                  "İki eline aldığı nesneden ağır olanı gösterir.",
+                  "İki eline aldığı nesneden hafif olanı gösterir.",
+                  "İki eline aldığı nesneden ağır olanı söyler.",
+                  "İki eline aldığı nesneden hafif olanı söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.4",
+                "outcome_text": "Standart ölçme araçları ile kütle ölçebilme",
+                "process_components": [
+                  "Terazide nesneyi tartar.",
+                  "Tarttığı nesnenin ağırlığını kilogram cinsinden söyler.",
+                  "Tarttığı nesnenin ağırlığını kilogram cinsinden yazar."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.5",
+                "outcome_text": "Standart olmayan ölçme araçları ile sıvıları ölçebilme",
+                "process_components": [
+                  "Küçük kapla büyük kabı doldurur.",
+                  "Büyük kaptaki sıvıyı küçük kaba uygun şekilde doldurur."
+                ]
+              },
+              {
+                "outcome_code": "MAT2.6",
+                "outcome_text": "Standart ölçme araçları ile sıvıları ölçebilme",
+                "process_components": [
+                  "Ölçekli kaba istenen miktarda sıvı doldurur.",
+                  "Ölçekli kapta yer alan sıvıyı istenen miktarda boşaltır."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Sayılar ve Nicelikler (3)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT3.1",
+                "outcome_text": "Paraları (1 TL, 5 TL, 10 TL, 20 TL, 50 TL, 100 TL ve 200 TL) tanıyabilme",
+                "process_components": [
+                  "Kendisinden istenen parayı gösterir.",
+                  "Gösterilen paranın kaç lira olduğunu söyler.",
+                  "Paranın değeri karşısında alabileceği nesneleri gösterir."
+                ]
+              },
+              {
+                "outcome_code": "MAT3.2",
+                "outcome_text": "Analog saatler üzerinde gösterilen zamanı (tam-yarım-çeyrek saat) okuyabilme",
+                "process_components": [
+                  "Saat üzerinde akrebi gösterir.",
+                  "Saat üzerinde gösterilen ögenin akrep olduğunu söyler.",
+                  "Saat üzerinde yelkovanı gösterir.",
+                  "Saat üzerinde gösterilen ögenin yelkovan olduğunu söyler.",
+                  "Saat üzerinden tam saatleri gösterir.",
+                  "Saat üzerinden tam saatleri söyler.",
+                  "Saat üzerinden yarım saatleri gösterir.",
+                  "Saat üzerinden yarım saatleri söyler.",
+                  "Saat üzerinden çeyrek geçe saatleri gösterir.",
+                  "Saat üzerinden çeyrek geçe saatleri söyler.",
+                  "Saat üzerinden çeyrek kala saatleri gösterir.",
+                  "Saat üzerinden çeyrek kala saatleri söyler.",
+                  "Saat üzerinde kendisine gösterilen saatin kaç olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT3.3",
+                "outcome_text": "Dijital saatler üzerinde gösterilen zamanı (saat ve dakika) okuyabilme",
+                "process_components": [
+                  "Dijital saat üzerinde saatin hangi tarafının saati ifade ettiği sorulduğunda saatin sol tarafını gösterir.",
+                  "Dijital saat üzerinde saatin hangi tarafının dakikayı ifade ettiği sorulduğunda saatin sağ tarafını gösterir.",
+                  "Dijital saatin sol tarafının saati gösterdiğini söyler.",
+                  "Dijital saatin sağ tarafının dakikayı gösterdiğini söyler.",
+                  "Dijital saat üzerinde kendisine gösterilen saatin kaç olduğunu söyler."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "İşlemlerden Cebirsel Düşünmeye",
+            "outcomes": [
+              {
+                "outcome_code": "MAT4.1",
+                "outcome_text": "Toplama işlemi yapabilme",
+                "process_components": [
+                  "Nesnelerle artırma yapar.",
+                  "Toplama işaretini söyler.",
+                  "Toplama işaretini çizer.",
+                  "Eşittir işaretini söyler.",
+                  "Eşittir işaretini çizer.",
+                  "Bir basamaklı bir sayıyla bir basamaklı bir sayıyı toplar.",
+                  "İki basamaklı bir sayı ile bir basamaklı bir sayıyı eldesiz toplar.",
+                  "İki basamaklı bir sayı ile iki basamaklı bir sayıyı sonuç iki basamaklı bir sayı olacak şekilde eldesiz toplar.",
+                  "İki basamaklı bir sayı ile sonuç yine iki basamaklı olacak şekilde eldeli toplama yapar.",
+                  "İstenen toplama işlemini oluşturarak toplama yapar.",
+                  "Hesap makinesi kullanarak toplama işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.2",
+                "outcome_text": "Çıkarma işlemi yapabilme",
+                "process_components": [
+                  "Nesnelerle eksiltme yapar.",
+                  "Eksi işaretini söyler.",
+                  "Eksi işaretini çizer.",
+                  "Bir basamaklı bir sayıdan bir basamaklı sayıyı çıkarır.",
+                  "İki basamaklı sayıdan bir basamaklı sayıyı onluk bozmadan çıkarır.",
+                  "İki basamaklı sayıdan iki basamaklı sayıyı onluk bozmadan çıkarır.",
+                  "İki basamaklı sayıdan bir basamaklı sayıyı onluk bozarak çıkarır.",
+                  "İki basamaklı sayıdan iki basamaklı sayıyı onluk bozarak çıkarır.",
+                  "İstenen çıkarma işlemini oluşturarak çıkarma yapar.",
+                  "Hesap makinesi kullanarak çıkarma işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.3",
+                "outcome_text": "Toplama ve çıkarma işlemi gerektiren problemleri çözebilme",
+                "process_components": [
+                  "Sonucu en fazla iki basamaklı olacak şekilde basit toplama problemi çözer.",
+                  "En fazla iki basamaklı sayıdan iki basamaklı sayıyı çıkarması gereken basit çıkarma problemi çözer.",
+                  "Verilen problemi uygun işleme karar vererek çözer."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.4",
+                "outcome_text": "Çarpma işlemi yapabilme",
+                "process_components": [
+                  "Çarpı işaretini söyler.",
+                  "Çarpı işaretini çizer.",
+                  "1’lerle en fazla iki basamaklı çarpma yapar.",
+                  "10’larla çarpma işlemi yapar.",
+                  "5’lerle çarpma işlemi yapar.",
+                  "2’lerle çarpma işlemi yapar.",
+                  "Hesap makinesi kullanarak çarpma işlemi yapar."
+                ]
+              },
+              {
+                "outcome_code": "MAT4.5",
+                "outcome_text": "Bölme işlemi yapabilme",
+                "process_components": [
+                  "Nesneleri ikiye böler.",
+                  "Nesneleri dörde böler.",
+                  "Bölme işaretini söyler.",
+                  "Bölme işaretini çizer.",
+                  "1’le bölme yapar.",
+                  "5’le kalansız bölme yapar.",
+                  "10’la kalansız bölme yapar.",
+                  "Hesap makinesi kullanarak bölme işlemi yapar."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Nesnelerin Geometrisi (1)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT5.1",
+                "outcome_text": "Varlıkları konumlandırabilme",
+                "process_components": [
+                  "Bir varlığın üzerinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın üzerinde olduğunu söyler.",
+                  "Bir varlığın altında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın altında olduğunu söyler.",
+                  "Bir varlığın önünde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın önünde olduğunu söyler.",
+                  "Bir varlığın arkasında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın arkasında olduğunu söyler.",
+                  "Bir varlığın uzağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın uzağında olduğunu söyler.",
+                  "Bir varlığın yakınında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın yakınında olduğunu söyler.",
+                  "Bir varlığın içinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın içinde olduğunu söyler.",
+                  "Bir varlığın dışında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın dışında olduğunu söyler.",
+                  "Bir varlığın sağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın sağında olduğunu söyler.",
+                  "Bir varlığın solunda olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın solunda olduğunu söyler.",
+                  "Bir varlığın ilerisinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın ilerisinde olduğunu söyler.",
+                  "Bir varlığın gerisinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın gerisinde olduğunu söyler.",
+                  "Bir varlığın yükseğinde olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın yükseğinde olduğunu söyler.",
+                  "Bir varlığın alçağında olan varlığı gösterir.",
+                  "Varlığın bir başka varlığın alçağında olduğunu söyler.",
+                  "Varlıkları uzaklıklarına göre sıralar.",
+                  "Varlıkları yakınlıklarına göre sıralar.",
+                  "Varlıkları yüksekliklerine göre sıralar.",
+                  "Varlıkları arasında olma durumuna göre sıralar."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.2",
+                "outcome_text": "Varlıkları özelliklerine göre ayırt edebilme",
+                "process_components": [
+                  "Başka bir varlığa göre büyük olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre büyük olduğunu söyler.",
+                  "Başka bir varlığa göre küçük olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre küçük olduğunu söyler.",
+                  "Başka bir varlığa göre uzun olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre uzun olduğunu söyler.",
+                  "Başka bir varlığa göre kısa olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre kısa olduğunu söyler.",
+                  "Başka bir varlığa göre kalın olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre kalın olduğunu söyler.",
+                  "Başka bir varlığa göre ince olan varlığı gösterir.",
+                  "Varlığın bir başka varlığa göre ince olduğunu söyler.",
+                  "Varlıkla aynı olan varlığı gösterir.",
+                  "Varlığın, varlıkla aynı olduğunu söyler.",
+                  "Varlıkla farklı olan varlığı gösterir.",
+                  "Varlığın, varlıkla farklı olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.3",
+                "outcome_text": "Nesneleri görsel özelliklerine göre eşleyebilme",
+                "process_components": [
+                  "Nesneleri rengine göre eşler.",
+                  "Nesneleri şekline göre eşler.",
+                  "Nesneleri boyutuna göre eşler."
+                ]
+              },
+              {
+                "outcome_code": "MAT5.4",
+                "outcome_text": "Bütün, yarım, çeyrek arasındaki ilişkiyi çözümleyebilme",
+                "process_components": [
+                  "Varlıkları bütün, yarım, çeyrek olarak belirler.",
+                  "Bütün, yarım, çeyrek arasındaki ilişkileri belirler.",
+                  "Varlıklar arasından istendiğinde bütün olanı gösterir.",
+                  "Gösterilen varlığın bütün olduğunu söyler.",
+                  "Varlıklar arasından istendiğinde yarım olanı gösterir.",
+                  "Gösterilen varlığın yarım olduğunu söyler.",
+                  "Verilen bir bütünü yarıya ayırır.",
+                  "Varlıklar arasından istendiğinde çeyrek olanı gösterir.",
+                  "Gösterilen varlığın çeyrek olduğunu söyler.",
+                  "Verilen bir bütünü çeyreğine ayırır."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Nesnelerin Geometrisi (2)",
+            "outcomes": [
+              {
+                "outcome_code": "MAT6.1",
+                "outcome_text": "Geometrik şekilleri ayırt edebilme",
+                "process_components": [
+                  "Gerçek nesneler/resimli kartlar arasından daireyi gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin daire olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından kareyi gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin kare olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından dikdörtgen gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin dikdörtgen olduğunu söyler.",
+                  "Gerçek nesneler/resimli kartlar arasından üçgeni gösterir.",
+                  "Gerçek nesneler/resimli kartlar arasından gösterilen şeklin üçgen olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT6.2",
+                "outcome_text": "Geometrik yapılardaki geometrik şekilleri ayırt edebilme",
+                "process_components": [
+                  "Geometrik yapılarda bulunan daireyi gösterir.",
+                  "Geometrik yapılarda bulunan şeklin daire olduğunu söyler.",
+                  "Geometrik yapılarda bulunan kareyi gösterir.",
+                  "Geometrik yapılarda bulunan şeklin kare olduğunu söyler.",
+                  "Geometrik yapılarda bulunan dikdörtgeni gösterir.",
+                  "Geometrik yapılarda bulunan şeklin dikdörtgen olduğunu söyler.",
+                  "Geometrik yapılarda bulunan üçgeni gösterir.",
+                  "Geometrik yapılarda bulunan şeklin üçgen olduğunu söyler.",
+                  "Geometrik yapılarda bulunan geometrik şekillerin sayısını söyler."
+                ]
+              },
+              {
+                "outcome_code": "MAT6.3",
+                "outcome_text": "Geometrik şekilleri özelliklerine göre ayırt edebilme",
+                "process_components": [
+                  "Dairenin kenarı ve köşesi olmadığını söyler.",
+                  "Dairenin içinin dolu olduğunu söyler.",
+                  "Karenin dört kenarı ve kenarlarının uzunluklarının eşit olduğunu söyler.",
+                  "Karenin kenar ve köşelerini gösterir.",
+                  "Dikdörtgenin dört kenarı ve köşesi olduğunu söyler.",
+                  "Dikdörtgenin kısa ve uzun kenarlarını gösterir.",
+                  "Üçgenin kenar ve köşelerini gösterir.",
+                  "Üçgenin üç kenarı ve köşesi olduğunu söyler."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 7,
+            "theme_name": "Veriye Dayalı Araştırma",
+            "outcomes": [
+              {
+                "outcome_code": "MAT7.1",
+                "outcome_text": "Grafikleri okuyabilme",
+                "process_components": [
+                  "Etkinlik çizelgesini okur.",
+                  "Çetele tablosunu okur.",
+                  "Sıklık tablosunu okur.",
+                  "Nesne grafiğini okur.",
+                  "Şekil grafiğini okur."
+                ]
+              },
+              {
+                "outcome_code": "MAT7.2",
+                "outcome_text": "Grafikleri oluşturabilme",
+                "process_components": [
+                  "Etkinlik çizelgesi oluşturur.",
+                  "Çetele tablosu oluşturur.",
+                  "Sıklık tablosu oluşturur.",
+                  "Nesne grafiği oluşturur.",
+                  "Şekil grafiği oluşturur."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": "turkce",
+        "course_name": "Türkçe",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "sections": [
+          {
+            "section_name": "İlk Okuma Yazmaya Hazırlık",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "Merak Ediyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.1",
+                    "outcome_text": "Nesneleri seçebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını ifade edebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.1",
+                    "outcome_text": "Yazı araç gerecini kullanabilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El-göz koordinasyonu becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ]
+              },
+              {
+                "theme_order": 2,
+                "theme_name": "Keşfediyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.2",
+                    "outcome_text": "Nesne görselini seçebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını söyleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El göz koordinasyon becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ]
+              },
+              {
+                "theme_order": 3,
+                "theme_name": "Öğrenmeye Hazırım",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.G.3",
+                    "outcome_text": "Gördüklerini belirleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.1",
+                    "outcome_text": "Duyduklarına tepki verebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.İ.2",
+                    "outcome_text": "Duyduklarını söyleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.E.2",
+                    "outcome_text": "El göz koordinasyon becerilerini kullanabilme",
+                    "process_components": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "Ses Esaslı Okuma Yazma",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "Okul Yaşamım",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından, öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır."
+                    ]
+                  }
+                ]
+              },
+              {
+                "theme_order": 2,
+                "theme_name": "Öğrenme Yolculuğum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/İzlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/İzledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/İzlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır."
+                    ]
+                  }
+                ]
+              },
+              {
+                "theme_order": 3,
+                "theme_name": "Atatürk’üm ve Türkiyem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ]
+              },
+              {
+                "theme_order": 4,
+                "theme_name": "Benim Güzel Ailem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ]
+              },
+              {
+                "theme_order": 5,
+                "theme_name": "Sosyal Çevrem",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Verilen görseller arasından öğrendiği sesin geçtiği görseli/görselleri seçer.",
+                      "Dinleme kurallarına uygun olarak dinler.",
+                      "Dinleme esnasında konuşmaya dâhil olmak için uygun zamanda söz alır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.2",
+                    "outcome_text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Sese karşılık gelen sembolü, harfi tanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini/izlediklerini çözümleyebilme",
+                    "process_components": [
+                      "Seslere karşılık gelen sembolleri/harfleri ayırt eder."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Harfi doğru seslendirir.",
+                      "Heceleri doğru seslendirir.",
+                      "Sözcükleri doğru okur.",
+                      "Cümleleri doğru okur.",
+                      "Telaffuza dikkat ederek okur.",
+                      "Öğrendiği ses, hece, sözcük, cümleleri işitilebilir bir ses düzeyinde okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.1",
+                    "outcome_text": "Konuşmalarını yönetebilme",
+                    "process_components": [
+                      "Konuşma sırasında dinleyicilerle göz teması kurar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım becerilerini yönetebilme",
+                    "process_components": [
+                      "Yazma materyalini kuralına uygun kullanır.",
+                      "Hece yazar.",
+                      "Sözcük yazar.",
+                      "Cümle yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Görsellerle ilgili sözcük yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harfleri temel formuna ve yazım yönlerine göre yazar.",
+                      "Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun kullanır.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır."
+                    ]
+                  }
+                ]
+              },
+              {
+                "theme_order": 6,
+                "theme_name": "Artık Okuyorum",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.D.1",
+                    "outcome_text": "Dinlemeyi/izlemeyi yönetebilme",
+                    "process_components": [
+                      "Dinleme kurallarına uygun olarak dinler."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.D.3",
+                    "outcome_text": "Dinlediklerini izlediklerini çözümleyebilme",
+                    "process_components": []
+                  },
+                  {
+                    "outcome_code": "T.O.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Telaffuza dikkat ederek okur.",
+                      "Noktalama işaretlerine dikkat ederek okur.",
+                      "Anlaşılabilir ve uygun bir hızda sesli okur.",
+                      "Kuralına uygun sesli okur.",
+                      "Kuralına uygun sessiz okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.2",
+                    "outcome_text": "Okudukları ile ilgili anlam oluşturabilme",
+                    "process_components": [
+                      "Okuduğu metnin içeriğine uygun çıkarım yapar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.O.3",
+                    "outcome_text": "Okuduklarını çözümleyebilme",
+                    "process_components": [
+                      "Okuduğu metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                      "Okuduğu metnin konusunu bulur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.2",
+                    "outcome_text": "Konuşmalarında içerik oluşturabilme",
+                    "process_components": [
+                      "Dinlediği/izlediği metni anlatır.",
+                      "Dinlediği/izlediği metindeki olayları oluş sırasına göre kendi ifadeleriyle anlatır.",
+                      "Okuduğu metindeki olayları oluş sırasına göre kendi ifadeleriyle anlatır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.K.3",
+                    "outcome_text": "Konuşma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Konuşmalarında konuşma hızını ayarlar.",
+                      "Konuşmalarında vurgu ve tonlamaya dikkat eder.",
+                      "Konuşmalarında sözcükleri yerinde ve anlamına uygun kullanır."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.1",
+                    "outcome_text": "Yazılı anlatım ifade becerilerini yönetebilme",
+                    "process_components": [
+                      "Metin yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.2",
+                    "outcome_text": "Yazılarında içerik oluşturabilme",
+                    "process_components": [
+                      "Dinlediği/izlediği bir metindeki olayları oluş sırasına göre kendi ifadeleriyle yazar.",
+                      "Okuduğu bir metindeki olayları oluş sırasına göre kendi ifadeleriyle yazar.",
+                      "Sözcük ve cümlelerde eksik bırakılan yerleri ön bilgileri doğrultusunda yazarak tamamlar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.Y.3",
+                    "outcome_text": "Yazma kurallarını uygulayabilme",
+                    "process_components": [
+                      "Harflerin büyük yazılışını yerinde kullanır.",
+                      "Büyük harfleri kuralına uygun yazar.",
+                      "Yazılarında noktayı kuralına uygun kullanır.",
+                      "Yazılarında soru işaretini kuralına uygun kullanır.",
+                      "Yazılarında virgülü kuralına uygun kullanır.",
+                      "Yazılarında ünlem işaretini kuralına uygun kullanır.",
+                      "Yazılarında kesme işaretini uygun kullanır."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_name": "İşlevsel Okuma",
+            "themes": [
+              {
+                "theme_order": 1,
+                "theme_name": "İşlevsel Okuma",
+                "outcomes": [
+                  {
+                    "outcome_code": "T.İO.1",
+                    "outcome_text": "Okuma sürecini yönetebilme",
+                    "process_components": [
+                      "Sözcüğü okur."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.2",
+                    "outcome_text": "Görseli verilen sözcüğü seçebilme",
+                    "process_components": [
+                      "Görseli verilen sözcüğü seçer.",
+                      "Yazılışı verilen sözcüğü diğer sözcükler arasından gösterir."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.3",
+                    "outcome_text": "Sözcük yazabilme",
+                    "process_components": [
+                      "Sözcük ve o sözcüğe ait görsel gösterildiğinde sözcüğü yazar.",
+                      "Öğretilen sözcük söylendiğinde yazar."
+                    ]
+                  },
+                  {
+                    "outcome_code": "T.İO.4",
+                    "outcome_text": "Dinleme eylemi gösterebilme",
+                    "process_components": [
+                      "Konuşan kişiye yönelik dinleme eylemi gösterir."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": "saglikli_yasam_ve_guvenlik_becerileri",
+        "course_name": "Sağlıklı Yaşam ve Güvenlik Becerileri",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Öz Bakım ve Günlük Yaşam",
+            "outcomes": [
+              {
+                "outcome_code": "SYG1.1",
+                "outcome_text": "Kişisel bakımı/temizliği konusunda iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.2",
+                "outcome_text": "Kişisel temizlik becerilerini yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.3",
+                "outcome_text": "Giyinme becerilerini yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.4",
+                "outcome_text": "Hava durumuna uygun kullanılan kıyafet ve eşyaları çözümleyebilme",
+                "process_components": [
+                  "Hava durumuna uygun kullanılan kıyafet ve eşyaları belirler.",
+                  "Hava durumunu ve bu durumda kullanılan kıyafet ve eşyalar arasındaki ilişkileri belirler."
+                ]
+              },
+              {
+                "outcome_code": "SYG1.5",
+                "outcome_text": "Tuvalet alışkanlığı edinebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.6",
+                "outcome_text": "Temel yeme-içme davranışları edinebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG1.7",
+                "outcome_text": "Uygun malzemeleri belirleyerek yiyecek-içecek hazırlayabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Sağlıklı Beslenme Becerileri",
+            "outcomes": [
+              {
+                "outcome_code": "SYG2.1",
+                "outcome_text": "Yemek yemeye hazırlanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.2",
+                "outcome_text": "Besinlerin tazelik durumunu ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.3",
+                "outcome_text": "Yemek sırasında kurallara uyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.4",
+                "outcome_text": "Sağlıklı yemek tabağı oluşturabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG2.5",
+                "outcome_text": "Yemek sonrasında kurallara uyabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Hastalıklarla Baş Etme",
+            "outcomes": [
+              {
+                "outcome_code": "SYG3.1",
+                "outcome_text": "Sağlıkla ilgili temel kavramları ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.2",
+                "outcome_text": "Sağlığı ile ilgili önemli durumları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.3",
+                "outcome_text": "Sağlığı ile ilgili önemli durumlarda iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG3.4",
+                "outcome_text": "Bulaşıcı hastalıklardan korunabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Tehlikeleri Fark Etme",
+            "outcomes": [
+              {
+                "outcome_code": "SYG4.1",
+                "outcome_text": "Yaralanmalara sebep olabilecek durumları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.2",
+                "outcome_text": "Yaralanmalara sebep olabilecek durumlarda önlem alabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.3",
+                "outcome_text": "Farklı ortamlarda (park, AVM, ev vb.) güvenli davranışlar sergileyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.4",
+                "outcome_text": "Tehlikeli nesneleri/maddeleri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG4.5",
+                "outcome_text": "Tehlikeli nesneleri belirleyerek güvenli davranışlar sergileyebilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Acil Durumlar ve Doğal Afetlerden Korunma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG5.1",
+                "outcome_text": "Acil ve doğal afet durumlarını ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG5.2",
+                "outcome_text": "Acil ve doğal afet durumlarında iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG5.3",
+                "outcome_text": "Acil ve doğal afet durumlarında önlem alabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Trafik Kurallarına Uyma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG6.1",
+                "outcome_text": "Trafik ile ilgili temel kavramları ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG6.2",
+                "outcome_text": "Trafik kurallarını sergileyebilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 7,
+            "theme_name": "İlk Yardım",
+            "outcomes": [
+              {
+                "outcome_code": "SYG7.1",
+                "outcome_text": "İlk yardım hakkında temel kavramları belirleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG7.2",
+                "outcome_text": "İlk yardım gerektiren durumlara yönelik uygun davranışları yansıtabilme",
+                "process_components": [
+                  "İlk yardım gerektiren durumlara yönelik davranışları gözden geçirir.",
+                  "İlk yardım gerektiren durumlara yönelik uygun davranışlar hakkında çıkarımda bulunur.",
+                  "İlk yardım gerektiren durumlara yönelik davranışlar hakkında çıkarımları değerlendirir."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 8,
+            "theme_name": "Kendini Koruma",
+            "outcomes": [
+              {
+                "outcome_code": "SYG8.1",
+                "outcome_text": "Güven çemberinde yer alan kişileri ayırt edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG8.2",
+                "outcome_text": "Uygun olmayan isteklere güvenli tepkide bulunma",
+                "process_components": []
+              },
+              {
+                "outcome_code": "SYG8.3",
+                "outcome_text": "Dijital ortamlardaki tehlikelerden korunabilme",
+                "process_components": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": "sosyal_beceriler",
+        "course_name": "Sosyal Beceriler",
+        "applicable_grade_levels": [
+          1,
+          2,
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Birbirimizi Tanıyoruz ve Etkileşim Kuruyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB1.1",
+                "outcome_text": "Sosyal ortamlara uygun selamlaşabilme",
+                "process_components": [
+                  "Aile ortamında uygun ifadelerle selamlaşır.",
+                  "Arkadaş gruplarının olduğu ortamlarda uygun ifadelerle selamlaşır.",
+                  "Kamusal ortamlarda uygun ifadelerle selamlaşır.",
+                  "Dijital ortamlarda uygun ifadelerle selamlaşır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.2",
+                "outcome_text": "Sosyal ortamlara uygun vedalaşabilme",
+                "process_components": [
+                  "Aile ortamında uygun ifadelerle vedalaşır.",
+                  "Arkadaş gruplarının olduğu ortamlarda uygun ifadelerle vedalaşır.",
+                  "Kamusal ortamlarda uygun ifadelerle vedalaşır.",
+                  "Dijital ortamlarda uygun ifadelerle vedalaşır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.3",
+                "outcome_text": "Sosyal ortamlara uygun etkileşim kurabilme",
+                "process_components": [
+                  "Sosyal ortamlarda kendini tanıtır.",
+                  "Sosyal ortamlarda yakın çevresini tanıtır.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşim başlatır.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşimi sürdürür.",
+                  "Sosyal ortamlarda uygun ifadelerle etkileşimi sonlandırır."
+                ]
+              },
+              {
+                "outcome_code": "SB1.4",
+                "outcome_text": "Etkileşim ilkelerini uygulayabilme",
+                "process_components": [
+                  "Etkileşim kurduğu kişiyle etkileşim süresince göz teması kurar.",
+                  "Etkileşim sırasında adına tepki verir.",
+                  "Etkileşim sırasında ortak dikkat kurar.",
+                  "Etkileşim kurduğu kişiyi dinler.",
+                  "Etkileşim kurduğu kişiyi dinlediğini gösteren tepkilerde bulunur.",
+                  "Etkileşim kurduğu kişiye uygun geri bildirim verir.",
+                  "Etkileşim süresince tepkide bulunmak için sıra alır.",
+                  "Etkileşim süresince karşıt görüşlere uygun tepki verir.",
+                  "Etkileşim süresince bağlama uygun olarak ses tonunu ayarlar.",
+                  "Etkileşim kurduğu kişiyle sosyal mesafeyi ayarlar."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Duygularımızı Tanıyoruz ve İfade Ediyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB2.1",
+                "outcome_text": "Duyguları tanıyabilme",
+                "process_components": [
+                  "Duyguları belirten yüz ifadelerini taklit eder.",
+                  "Duyguları jest ve mimiklerini kullanarak gösterir.",
+                  "Jest ve mimiklerle gösterilen duygunun ne olduğunu söyler."
+                ]
+              },
+              {
+                "outcome_code": "SB2.2",
+                "outcome_text": "Duygulara uygun tepkide bulunabilme",
+                "process_components": [
+                  "Etkileşim sırasında duygusunu fark eder.",
+                  "Etkileşim sırasında duygusunu ifade eder.",
+                  "Etkileşim sırasında diğer insanların duygusunu fark eder.",
+                  "Etkileşim sırasında diğer insanların duygusuna uygun tepki verir."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "Birlikte Yaşıyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB3.1",
+                "outcome_text": "Toplumsal yaşama uyumu kolaylaştıran nezaket ifadelerini kullanabilme",
+                "process_components": [
+                  "Toplumsal yaşamda karşılaştığı durumlara uygun nezaket ifadelerini belirler.",
+                  "Toplumsal yaşamda karşılaştığı durumlara uygun nezaket ifadelerini kullanır."
+                ]
+              },
+              {
+                "outcome_code": "SB3.2",
+                "outcome_text": "Toplumsal yaşama uyumu kolaylaştıran becerileri sergileyebilme",
+                "process_components": [
+                  "Paylaşır.",
+                  "İzin alır.",
+                  "Sıra bekler.",
+                  "İş birliği yapar.",
+                  "Yardımlaşır."
+                ]
+              }
+            ]
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Duygu ve Davranışlarımızı Yönetiyoruz",
+            "outcomes": [
+              {
+                "outcome_code": "SB4.1",
+                "outcome_text": "Başkasından gelen isteklere uygun tepki verebilme",
+                "process_components": [
+                  "Uygun olan ve olmayan istekleri ayırt eder.",
+                  "Uygun istekleri kabul eder.",
+                  "Uygun olmayan istekleri reddeder."
+                ]
+              },
+              {
+                "outcome_code": "SB4.2",
+                "outcome_text": "Tercihlerini ifade edebilme",
+                "process_components": [
+                  "Tercihlerini belirler.",
+                  "Tercihlerini belirtir.",
+                  "Tercihlerinin nedenlerini ifade eder."
+                ]
+              },
+              {
+                "outcome_code": "SB4.3",
+                "outcome_text": "Olumsuz durumla başa çıkabilme",
+                "process_components": [
+                  "Olumsuz durumu ayırt eder.",
+                  "Olumsuz duruma uygun tepkileri belirler.",
+                  "Olumsuz durumda gösterilecek uygun tepkiyi seçer.",
+                  "Olumsuz durum için karar verdiği tepkiyi uygular.",
+                  "Tepkisinin sonuçlarını değerlendirir."
+                ]
+              },
+              {
+                "outcome_code": "SB4.4",
+                "outcome_text": "Günlük yaşamını planlayabilme",
+                "process_components": [
+                  "Gün içinde yapması gereken sorumlulukları listeler.",
+                  "Gün içinde yapması gereken sorumluluklar için uygun zamanı belirler.",
+                  "Belirlediği zaman diliminde sorumlulukları yerine getirir.",
+                  "İhtiyaç durumunda günlük planında değişiklikler yapar."
+                ]
+              },
+              {
+                "outcome_code": "SB4.5",
+                "outcome_text": "Günlük yaşamda karşılaştığı basit problemlerle başa çıkabilme",
+                "process_components": [
+                  "Karşılaştığı problemin ne olduğunu söyler.",
+                  "Karşılaştığı probleme ilişkin çözüm önerilerini listeler.",
+                  "Karşılaştığı probleme ilişkin çözüm önerilerini uygular.",
+                  "Çözüm önerilerinin karşılaştığı problemi çözmede etkili olup olmadığını değerlendirir."
+                ]
+              },
+              {
+                "outcome_code": "SB4.6",
+                "outcome_text": "Öz düzenleme becerilerini sergileyebilme",
+                "process_components": [
+                  "Başarmak istediklerine ilişkin hedef koyar.",
+                  "Hedefe ulaşmak için yapması gerekenleri listeler.",
+                  "Hedefe ulaşmak için yapması gerekenleri yerine getirir.",
+                  "Hedefe ulaşma yolundaki performansını değerlendirir.",
+                  "Performansına uygun kendisine geri bildirim verir."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": "bagimsiz_yasam_becerileri",
+        "course_name": "Bağımsız Yaşam Becerileri",
+        "applicable_grade_levels": [
+          3
+        ],
+        "themes": [
+          {
+            "theme_order": 1,
+            "theme_name": "Kendimi Keşfediyorum",
+            "outcomes": [
+              {
+                "outcome_code": "BYB1.1",
+                "outcome_text": "Kendisini ve yakın çevresini tanıyabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.2",
+                "outcome_text": "Duyguları tanıyarak uygun tepkilerde bulunabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.3",
+                "outcome_text": "Duyguları düzenleyebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB1.4",
+                "outcome_text": "Yönergeleri alarak dikkatini sürdürebilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 2,
+            "theme_name": "Bağımsızım, Günlük Hayata Hazırım",
+            "outcomes": [
+              {
+                "outcome_code": "BYB2.1",
+                "outcome_text": "Yaşantısıyla ilgili planlamalar yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.2",
+                "outcome_text": "Sorumluluklarını yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.3",
+                "outcome_text": "Ev içi becerileri yerine getirebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.4",
+                "outcome_text": "Toplumsal ortamları kurallarına uygun kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB2.5",
+                "outcome_text": "Toplumsal yaşamda bağımsız hareket edebilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 3,
+            "theme_name": "İletişim Köprüleri",
+            "outcomes": [
+              {
+                "outcome_code": "BYB3.1",
+                "outcome_text": "Ortam ve kişilere uygun iletişim kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.2",
+                "outcome_text": "Grup içinde uygun sosyal davranışları sergileyerek iş birliği yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.3",
+                "outcome_text": "Arkadaşlık ilişkileri kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.4",
+                "outcome_text": "Günlük yaşamda karşılaştığı problemleri tanımlayabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB3.5",
+                "outcome_text": "Günlük yaşamda karşılaştığı problemlere yönelik alternatif çözüm yolları bulabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 4,
+            "theme_name": "Güvende Kal, Özgür Ol",
+            "outcomes": [
+              {
+                "outcome_code": "BYB4.1",
+                "outcome_text": "Kişilerle güvenli iletişim kurabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.2",
+                "outcome_text": "Tehlikeli durumlara yönelik önlem alabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.3",
+                "outcome_text": "Acil durumlara uygun hareket edebilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.4",
+                "outcome_text": "Teknolojik iletişim araçlarını fiziksel sağlığını koruyacak şekilde kullanabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB4.5",
+                "outcome_text": "Teknolojik iletişim araçlarını güvenli bir biçimde kullanabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 5,
+            "theme_name": "Bilinçli Alışveriş",
+            "outcomes": [
+              {
+                "outcome_code": "BYB5.1",
+                "outcome_text": "İhtiyaçlarına göre alışveriş yapabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB5.2",
+                "outcome_text": "Güvenli alışveriş yapabilme",
+                "process_components": []
+              }
+            ]
+          },
+          {
+            "theme_order": 6,
+            "theme_name": "Değerlerimiz",
+            "outcomes": [
+              {
+                "outcome_code": "BYB6.1",
+                "outcome_text": "Belirli gün ve haftalar ile ilgili etkinliklere katılabilme",
+                "process_components": []
+              },
+              {
+                "outcome_code": "BYB6.2",
+                "outcome_text": "Atatürk’ü tanıyabilme",
+                "process_components": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<svg width="1000" height="760" viewBox="0 0 1000 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="specia-cutout-white">
+      <rect width="1000" height="760" fill="black"/>
+      <path d="M500 256C338.144 256 207 387.144 207 549H793C793 387.144 661.856 256 500 256Z" fill="white"/>
+      <path d="M245 549C245 411.487 357.487 299 495 299" stroke="black" stroke-width="5" stroke-linecap="round"/>
+      <path d="M282 549C282 430.264 378.264 334 497 334" stroke="black" stroke-width="7" stroke-linecap="round"/>
+      <path d="M316 549C316 449.041 397.041 368 497 368" stroke="black" stroke-width="9" stroke-linecap="round"/>
+      <path d="M350 549C350 467.817 415.817 402 497 402" stroke="black" stroke-width="11" stroke-linecap="round"/>
+      <path d="M386 549C386 487.698 435.698 438 497 438" stroke="black" stroke-width="13" stroke-linecap="round"/>
+      <path d="M423 549C423 507.579 456.579 474 498 474" stroke="black" stroke-width="15" stroke-linecap="round"/>
+      <path d="M463 549C463 528.013 480.013 511 501 511" stroke="black" stroke-width="17" stroke-linecap="round"/>
+      <path d="M501 549C501 549 501.6 548.4 503 548" stroke="black" stroke-width="19" stroke-linecap="round"/>
+    </mask>
+  </defs>
+
+  <g fill="#FFFFFF">
+    <g transform="translate(122 62)">
+      <text x="0" y="188" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(-42 0 188)">S</text>
+      <text x="132" y="120" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(-24 132 120)">P</text>
+      <text x="286" y="74" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(-7 286 74)">E</text>
+      <text x="462" y="72" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(10 462 72)">C</text>
+      <text x="618" y="112" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(28 618 112)">I</text>
+      <text x="694" y="188" font-size="128" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(44 694 188)">A</text>
+    </g>
+  </g>
+
+  <rect width="1000" height="760" fill="#FFFFFF" mask="url(#specia-cutout-white)"/>
+</svg>

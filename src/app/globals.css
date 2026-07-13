@@ -1,0 +1,864 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Koyu tema varsayılan (tema çözülmeden önce de geçerli). */
+:root,
+[data-theme="dark"] {
+  --background: #000000;
+  --foreground: #fafafa;
+  --panel-bg-canvas: #000000;
+  --panel-bg-base: #000000;
+  --panel-bg-elevated: #050505;
+  --panel-bg-soft: rgba(255, 255, 255, 0.045);
+  --panel-bg-hover: rgba(255, 255, 255, 0.075);
+  --panel-border: rgba(255, 255, 255, 0.1);
+  --panel-border-strong: rgba(255, 255, 255, 0.18);
+  --panel-text: #ffffff;
+  --panel-text-muted: #a1a1aa;
+  --panel-text-soft: #63637a;
+  --panel-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  /* Semantik durum token'ları (koyu) */
+  --panel-danger-bg: #2a1619;
+  --panel-danger-border: #5c2a31;
+  --panel-danger-text: #ffd8dc;
+  --panel-success-bg: rgba(16, 185, 129, 0.12);
+  --panel-success-border: rgba(16, 185, 129, 0.28);
+  --panel-success-text: #6ee7b7;
+  --panel-warning-bg: rgba(245, 158, 11, 0.12);
+  --panel-warning-border: rgba(245, 158, 11, 0.28);
+  --panel-warning-text: #f4d69b;
+  --panel-info-bg: rgba(56, 189, 248, 0.12);
+  --panel-info-border: rgba(56, 189, 248, 0.28);
+  --panel-info-text: #7dd3fc;
+  /* Öğrenme aşaması veri renkleri (grafik serileri ve aşama rozetleri, koyu) */
+  --panel-phase-acquisition: #60c5f8;
+  --panel-phase-acquisition-bg: rgba(56, 189, 248, 0.14);
+  --panel-phase-acquisition-border: rgba(56, 189, 248, 0.32);
+  --panel-phase-fluency: #b4a3fc;
+  --panel-phase-fluency-bg: rgba(139, 122, 246, 0.16);
+  --panel-phase-fluency-border: rgba(139, 122, 246, 0.34);
+  --panel-phase-maintenance: #4ade9d;
+  --panel-phase-maintenance-bg: rgba(16, 185, 129, 0.14);
+  --panel-phase-maintenance-border: rgba(16, 185, 129, 0.32);
+  --panel-phase-generalization: #f5c04e;
+  --panel-phase-generalization-bg: rgba(245, 158, 11, 0.14);
+  --panel-phase-generalization-border: rgba(245, 158, 11, 0.32);
+  /* Yarıçap ölçeği (kompakt, tema-bağımsız) */
+  --panel-radius-card: 14px;
+  --panel-radius-lg: 12px;
+  --panel-radius-md: 10px;
+  --panel-radius-sm: 8px;
+}
+
+/* Açık tema renkleri. Sert beyaz "kutu" hissini azaltmak için kenarlıklar
+   yumuşak, derinlik kenarlık yerine hafif gölgeyle veriliyor. */
+[data-theme="light"] {
+  --background: #eef0f3;
+  --foreground: #1c1c1f;
+  --panel-bg-canvas: #eceef1;
+  --panel-bg-base: #ffffff;
+  --panel-bg-elevated: #ffffff;
+  --panel-bg-soft: rgba(20, 22, 28, 0.035);
+  --panel-bg-hover: rgba(20, 22, 28, 0.06);
+  --panel-border: rgba(20, 22, 28, 0.07);
+  --panel-border-strong: rgba(20, 22, 28, 0.14);
+  --panel-text: #1c1c1f;
+  --panel-text-muted: #56565e;
+  --panel-text-soft: #82828c;
+  --panel-shadow: 0 1px 2px 0 rgba(20, 22, 28, 0.05), 0 10px 28px -16px rgba(20, 22, 28, 0.12);
+  --panel-danger-bg: #fdeaec;
+  --panel-danger-border: #f3c0c6;
+  --panel-danger-text: #9f1d2c;
+  --panel-success-bg: #ecfdf5;
+  --panel-success-border: #a7f3d0;
+  --panel-success-text: #047857;
+  --panel-warning-bg: #fef6e7;
+  --panel-warning-border: #f6d699;
+  --panel-warning-text: #8a5a00;
+  --panel-info-bg: #e8f4fd;
+  --panel-info-border: #b6e0fb;
+  --panel-info-text: #0369a1;
+  /* Öğrenme aşaması veri renkleri (açık) */
+  --panel-phase-acquisition: #0284c7;
+  --panel-phase-acquisition-bg: #e8f4fd;
+  --panel-phase-acquisition-border: #b6e0fb;
+  --panel-phase-fluency: #6d4fd8;
+  --panel-phase-fluency-bg: #f0edfd;
+  --panel-phase-fluency-border: #d4c9f8;
+  --panel-phase-maintenance: #047857;
+  --panel-phase-maintenance-bg: #ecfdf5;
+  --panel-phase-maintenance-border: #a7f3d0;
+  --panel-phase-generalization: #a16207;
+  --panel-phase-generalization-bg: #fef6e7;
+  --panel-phase-generalization-border: #f6d699;
+}
+
+/* Açık tema YALNIZCA panele uygulanır. Panel dışındaki sayfalar (landing,
+   giriş/kayıt, herkese açık sayfalar ve footer) marka gereği her zaman koyu
+   kalır. `body` panel yüzeyi içermiyorsa (`:has` ile) koyu token'lar geri
+   yüklenir; böylece landing eski görünümünü korur ve token tabanlı butonlar
+   bozulmaz. Panel sayfalarında `body` `.panel-surface` içerdiğinden bu kural
+   uygulanmaz ve footer dahil panel açık temayı izler. */
+[data-theme="light"] body:not(:has(.panel-surface)) {
+  --background: #000000;
+  --foreground: #fafafa;
+  --panel-bg-canvas: #000000;
+  --panel-bg-base: #000000;
+  --panel-bg-elevated: #050505;
+  --panel-bg-soft: rgba(255, 255, 255, 0.045);
+  --panel-bg-hover: rgba(255, 255, 255, 0.075);
+  --panel-border: rgba(255, 255, 255, 0.1);
+  --panel-border-strong: rgba(255, 255, 255, 0.18);
+  --panel-text: #ffffff;
+  --panel-text-muted: #a1a1aa;
+  --panel-text-soft: #63637a;
+  --panel-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  --panel-danger-bg: #2a1619;
+  --panel-danger-border: #5c2a31;
+  --panel-danger-text: #ffd8dc;
+  --panel-success-bg: rgba(16, 185, 129, 0.12);
+  --panel-success-border: rgba(16, 185, 129, 0.28);
+  --panel-success-text: #6ee7b7;
+  --panel-warning-bg: rgba(245, 158, 11, 0.12);
+  --panel-warning-border: rgba(245, 158, 11, 0.28);
+  --panel-warning-text: #f4d69b;
+  --panel-info-bg: rgba(56, 189, 248, 0.12);
+  --panel-info-border: rgba(56, 189, 248, 0.28);
+  --panel-info-text: #7dd3fc;
+  --panel-phase-acquisition: #60c5f8;
+  --panel-phase-acquisition-bg: rgba(56, 189, 248, 0.14);
+  --panel-phase-acquisition-border: rgba(56, 189, 248, 0.32);
+  --panel-phase-fluency: #b4a3fc;
+  --panel-phase-fluency-bg: rgba(139, 122, 246, 0.16);
+  --panel-phase-fluency-border: rgba(139, 122, 246, 0.34);
+  --panel-phase-maintenance: #4ade9d;
+  --panel-phase-maintenance-bg: rgba(16, 185, 129, 0.14);
+  --panel-phase-maintenance-border: rgba(16, 185, 129, 0.32);
+  --panel-phase-generalization: #f5c04e;
+  --panel-phase-generalization-bg: rgba(245, 158, 11, 0.14);
+  --panel-phase-generalization-border: rgba(245, 158, 11, 0.32);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--panel-bg-canvas);
+  font-family: var(--font-body), sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), serif;
+}
+
+.panel-surface {
+  color: var(--panel-text);
+}
+
+:root .panel-surface .border-white\/5,
+[data-theme="dark"] .panel-surface .border-white\/5 {
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+:root .panel-surface .border-white\/10,
+[data-theme="dark"] .panel-surface .border-white\/10 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* İç içe kartlar: bir kartın içindeki kart "üst üste kutu" gibi görünmesin —
+   gölge kaldırılır ve çerçeve inceltilir; arka plana dokunulmaz, böylece
+   ghost/şeffaf kartlar etkilenmez ve görsel bölünme azalır. */
+.panel-surface [data-card] [data-card] {
+  box-shadow: none;
+}
+
+.panel-surface [data-card] [data-card].border-\[color\:var\(--panel-border\)\] {
+  border-color: color-mix(in srgb, var(--panel-border) 55%, transparent);
+}
+
+.panel-surface h1,
+.panel-surface h2,
+.panel-surface h3,
+.panel-surface h4 {
+  font-family: var(--font-body), sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color-scheme: dark;
+}
+
+[data-theme="light"] button,
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  color-scheme: light;
+}
+
+input,
+select,
+textarea {
+  color: var(--foreground);
+}
+
+/* Native <select> kutusu appearance sıfırlanmadan bırakılırsa bazı
+   tarayıcılar (özellikle macOS Safari) kutunun arka plan/metin rengini
+   author CSS'ten değil OS'in native kontrol temasından alır — sayfa koyu
+   temadayken bile açık gri kutu + siyah metin görünür. appearance: none ile
+   native kontrol kapatılıp yerine tema rengine uygun ok ikonu eklenir. */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 2.25rem !important;
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23a1a1aa' stroke-width='1.6'%3E%3Cpath d='M5 7l5 5 5-5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+[data-theme="light"] body:has(.panel-surface) select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%2356565e' stroke-width='1.6'%3E%3Cpath d='M5 7l5 5 5-5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Native <option> popup'ları bazı tarayıcılarda CSS custom property'lerini
+   çözemiyor (var() referansı yok sayılıp OS/tarayıcı varsayılan rengine
+   düşülüyor); bu yüzden burada tema değerleri literal olarak tekrarlanır. */
+select option,
+select optgroup {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+[data-theme="light"] body:has(.panel-surface) select option,
+[data-theme="light"] body:has(.panel-surface) select optgroup {
+  background-color: #ffffff;
+  color: #1c1c1f;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--panel-text);
+  -webkit-box-shadow: 0 0 0 1000px var(--panel-bg-elevated) inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(0.9);
+}
+
+[data-theme="light"] input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: none;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.20);
+  color: #ffffff;
+}
+
+[data-theme="light"] ::selection {
+  background: rgba(0, 0, 0, 0.14);
+  color: #18181b;
+}
+
+@keyframes specia-progress {
+  0% {
+    transform: translateX(-100%) scaleX(0.35);
+  }
+
+  55% {
+    transform: translateX(-10%) scaleX(0.72);
+  }
+
+  100% {
+    transform: translateX(100%) scaleX(0.45);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.22s cubic-bezier(0.34, 1.3, 0.64, 1) forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+.animate-fade-out {
+  animation: fadeOut 0.15s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-out {
+  animation: scaleOut 0.15s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Landing — scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Landing — soft floating accents */
+@keyframes landing-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes landing-aurora-pan {
+  0% {
+    transform: translate3d(-6%, -2%, 0) scale(1.05);
+  }
+  50% {
+    transform: translate3d(6%, 4%, 0) scale(1.15);
+  }
+  100% {
+    transform: translate3d(-6%, -2%, 0) scale(1.05);
+  }
+}
+
+/* Landing — kelime kelime başlık girişi */
+.landing-word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.55em);
+  filter: blur(10px);
+  animation: landing-word-in 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--word-delay, 0ms);
+}
+
+@keyframes landing-word-in {
+  to {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .landing-animate {
+    animation: none !important;
+  }
+
+  .landing-word {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Açık tema uyum katmanı
+   Kod tabanı koyu zemin varsayan sabit `white`/`black` Tailwind utility'lerini
+   yoğun kullanıyor (~100 dosya). Bu sınıfları tek tek dosyalarda değiştirmek
+   yerine, yalnızca açık temada (`[data-theme="light"]`) anlamlı renklerle
+   yeniden eşliyoruz. Koyu tema bu bloktan etkilenmez ve birebir korunur.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Tema duyarlı logo: varsayılan beyaz logo (koyu zemin). Siyah logo yalnızca
+   "etkin açık tema" durumunda gösterilir = açık tema + panel bağlamı. Panel
+   dışındaki sayfalar her zaman koyu kaldığı için orada beyaz logo korunur
+   (var-zorlama kuralıyla aynı `:has` mantığı). */
+.brand-logo-light {
+  display: none;
+}
+
+[data-theme="light"] body:has(.panel-surface) .brand-logo-dark {
+  display: none;
+}
+
+[data-theme="light"] body:has(.panel-surface) .brand-logo-light {
+  display: block;
+}
+
+/* Metin: sabit beyaz metinler okunabilir koyu metne döner. */
+[data-theme="light"] .panel-surface .text-white,
+[data-theme="light"] .panel-surface .hover\:text-white:hover {
+  color: var(--panel-text);
+}
+
+[data-theme="light"] .panel-surface .text-white\/82,
+[data-theme="light"] .panel-surface .text-white\/80,
+[data-theme="light"] .panel-surface .text-white\/72,
+[data-theme="light"] .panel-surface .text-white\/70,
+[data-theme="light"] .panel-surface .text-white\/68,
+[data-theme="light"] .panel-surface .text-white\/62,
+[data-theme="light"] .panel-surface .text-white\/60,
+[data-theme="light"] .panel-surface .text-white\/56,
+[data-theme="light"] .panel-surface .text-white\/54 {
+  color: var(--panel-text-muted);
+}
+
+[data-theme="light"] .panel-surface .text-white\/50,
+[data-theme="light"] .panel-surface .text-white\/46,
+[data-theme="light"] .panel-surface .text-white\/45,
+[data-theme="light"] .panel-surface .text-white\/44,
+[data-theme="light"] .panel-surface .text-white\/42,
+[data-theme="light"] .panel-surface .text-white\/40,
+[data-theme="light"] .panel-surface .text-white\/38,
+[data-theme="light"] .panel-surface .text-white\/30 {
+  color: var(--panel-text-soft);
+}
+
+/* Koyu metin (genelde dolu beyaz çip üzerinde) açık temada açık metne döner. */
+[data-theme="light"] .panel-surface .text-black {
+  color: var(--panel-bg-base);
+}
+
+/* Kenarlıklar: ince beyaz kenarlıklar koyu kenarlığa döner. */
+[data-theme="light"] .panel-surface .border-white\/5,
+[data-theme="light"] .panel-surface .border-white\/6,
+[data-theme="light"] .panel-surface .border-white\/8,
+[data-theme="light"] .panel-surface .border-white\/10,
+[data-theme="light"] .panel-surface .border-white\/12,
+[data-theme="light"] .panel-surface .border-white\/\[0\.06\],
+[data-theme="light"] .panel-surface .border-white\/\[0\.08\] {
+  border-color: var(--panel-border);
+}
+
+[data-theme="light"] .panel-surface .border-white,
+[data-theme="light"] .panel-surface .border-white\/14,
+[data-theme="light"] .panel-surface .border-white\/15,
+[data-theme="light"] .panel-surface .border-white\/16,
+[data-theme="light"] .panel-surface .border-white\/18,
+[data-theme="light"] .panel-surface .border-white\/20,
+[data-theme="light"] .panel-surface .border-white\/30,
+[data-theme="light"] .panel-surface .border-white\/85,
+[data-theme="light"] .panel-surface .hover\:border-white\/10:hover,
+[data-theme="light"] .panel-surface .hover\:border-white\/16:hover,
+[data-theme="light"] .panel-surface .hover\:border-white\/20:hover,
+[data-theme="light"] .panel-surface .hover\:border-white\/25:hover {
+  border-color: var(--panel-border-strong);
+}
+
+/* Arka planlar: ince beyaz katmanlar koyu (siyah tabanlı) katmana döner. */
+[data-theme="light"] .panel-surface .bg-white\/\[0\.01\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.015\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.02\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.025\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.03\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.035\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.04\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.045\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.05\],
+[data-theme="light"] .panel-surface .bg-white\/\[0\.06\],
+[data-theme="light"] .panel-surface .bg-white\/4,
+[data-theme="light"] .panel-surface .bg-white\/5,
+[data-theme="light"] .panel-surface .bg-white\/6,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.01\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.02\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.04\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.045\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.05\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/4:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/5:hover {
+  background-color: var(--panel-bg-soft);
+}
+
+[data-theme="light"] .panel-surface .bg-white\/8,
+[data-theme="light"] .panel-surface .bg-white\/\[0\.08\],
+[data-theme="light"] .panel-surface .bg-white\/10,
+[data-theme="light"] .panel-surface .bg-white\/12,
+[data-theme="light"] .panel-surface .bg-white\/15,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.06\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/\[0\.08\]:hover,
+[data-theme="light"] .panel-surface .hover\:bg-white\/10:hover {
+  background-color: var(--panel-bg-hover);
+}
+
+/* Dolu beyaz yüzeyler (genelde seçili/aktif durum) açık temada koyu çipe döner. */
+[data-theme="light"] .panel-surface .bg-white,
+[data-theme="light"] .panel-surface .bg-white\/72,
+[data-theme="light"] .panel-surface .bg-white\/70,
+[data-theme="light"] .panel-surface .hover\:bg-white:hover {
+  background-color: var(--panel-text);
+}
+
+/* Düşük opaklıklı siyah dolgular (alan/yüzey) açık temada gri kutu olmasın
+   -> yumuşak yüzeye döner. Yüksek opaklık (modal karartması) korunur. */
+[data-theme="light"] .panel-surface .bg-black\/5,
+[data-theme="light"] .panel-surface .bg-black\/10,
+[data-theme="light"] .panel-surface .bg-black\/16,
+[data-theme="light"] .panel-surface .bg-black\/20 {
+  background-color: var(--panel-bg-soft);
+}
+
+[data-theme="light"] .panel-surface .bg-black\/25,
+[data-theme="light"] .panel-surface .bg-black\/30,
+[data-theme="light"] .panel-surface .bg-black\/40 {
+  background-color: var(--panel-bg-hover);
+}
+
+/* Odak halkaları açık temada görünür kalsın. */
+[data-theme="light"] .panel-surface .ring-white\/15,
+[data-theme="light"] .panel-surface .focus-visible\:ring-white\/15:focus-visible {
+  --tw-ring-color: rgba(0, 0, 0, 0.18);
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Sabit Tailwind gri paleti (neutral / slate) açık tema uyumu
+   BEP/Değerlendirmeler gibi içerik yoğun bölümler koyu zemine göre seçilmiş
+   gri tonlarını yoğun kullanıyor (text-neutral-300/400/500, bg-neutral-900...).
+   Açık temada bunlar okunamaz/uyumsuz; tema token'larına eşliyoruz.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Açık gri metinler (koyu zeminde birincil) -> birincil koyu metin. */
+[data-theme="light"] .panel-surface .text-neutral-50,
+[data-theme="light"] .panel-surface .text-neutral-100,
+[data-theme="light"] .panel-surface .text-neutral-200,
+[data-theme="light"] .panel-surface .text-neutral-300,
+[data-theme="light"] .panel-surface .text-neutral-300\/80,
+[data-theme="light"] .panel-surface .text-slate-50,
+[data-theme="light"] .panel-surface .text-slate-300 {
+  color: var(--panel-text);
+}
+
+/* Orta gri metinler -> ikincil (muted). */
+[data-theme="light"] .panel-surface [class*="text-neutral-400"],
+[data-theme="light"] .panel-surface [class*="text-neutral-500"],
+[data-theme="light"] .panel-surface [class*="text-slate-400"],
+[data-theme="light"] .panel-surface [class*="text-slate-500"] {
+  color: var(--panel-text-muted);
+}
+
+/* Koyu gri metinler -> üçüncül (soft). */
+[data-theme="light"] .panel-surface [class*="text-neutral-600"],
+[data-theme="light"] .panel-surface [class*="text-neutral-700"],
+[data-theme="light"] .panel-surface [class*="text-slate-600"],
+[data-theme="light"] .panel-surface [class*="text-slate-700"] {
+  color: var(--panel-text-soft);
+}
+
+/* Placeholder gri tonları. */
+[data-theme="light"] .panel-surface [class*="placeholder-neutral-"]::placeholder,
+[data-theme="light"] .panel-surface [class*="placeholder-slate-"]::placeholder {
+  color: var(--panel-text-soft);
+}
+
+/* Saydam token yüzeyleri (bg-[color:var(--panel-bg-*)]/NN) açık temada gri
+   canvas'ı sızdırıp "gri arka plan" yaratıyordu -> opak hale getiriliyor.
+   Gradient kartlar (bg-[linear-gradient(...)]) bu desene uymaz, etkilenmez. */
+[data-theme="light"] .panel-surface [class*="bg-[color:var(--panel-bg-base)]"],
+[data-theme="light"] .panel-surface [class*="bg-[color:var(--panel-bg-elevated)]"] {
+  background-color: var(--panel-bg-elevated);
+}
+
+[data-theme="light"] .panel-surface [class*="bg-[color:var(--panel-bg-canvas)]"] {
+  background-color: var(--panel-bg-canvas);
+}
+/* Not: bg-soft / bg-hover token'ları çok sayıda hover varyantına sahip olduğu
+   için (hover:bg-[var(--panel-bg-hover)] vb.) substring ile ele alınmaz; aksi
+   halde etkileşimli öğeler her zaman dolu görünürdü. Bunlar zaten açık temada
+   doğru (siyah tabanlı) overlay üretir. */
+
+/* Koyu gri yüzeyler (panel/dropdown/modal, tüm ton/opaklıklar) -> açık yüzey. */
+[data-theme="light"] .panel-surface [class*="bg-neutral-7"],
+[data-theme="light"] .panel-surface [class*="bg-neutral-8"],
+[data-theme="light"] .panel-surface [class*="bg-neutral-9"],
+[data-theme="light"] .panel-surface [class*="bg-slate-7"],
+[data-theme="light"] .panel-surface [class*="bg-slate-8"],
+[data-theme="light"] .panel-surface [class*="bg-slate-9"] {
+  background-color: var(--panel-bg-elevated);
+}
+
+/* İnce / açık gri dolgular -> yumuşak yüzey. */
+[data-theme="light"] .panel-surface [class*="bg-neutral-5"],
+[data-theme="light"] .panel-surface [class*="bg-neutral-50"],
+[data-theme="light"] .panel-surface [class*="bg-slate-50"],
+[data-theme="light"] .panel-surface [class*="bg-slate-5"] {
+  background-color: var(--panel-bg-soft);
+}
+
+/* Gri kenarlıklar -> tema kenarlığı. */
+[data-theme="light"] .panel-surface .border-neutral-400\/50,
+[data-theme="light"] .panel-surface .border-neutral-500\/20,
+[data-theme="light"] .panel-surface .border-neutral-500\/50,
+[data-theme="light"] .panel-surface .border-slate-200 {
+  border-color: var(--panel-border);
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Durum/aksan METİN renkleri — açık tema kontrastı
+   Parlak tonlar koyu zeminde okunmuyor; aynı rengin koyu (-700) karşılığına
+   çekiliyor. NOT: `hover:`/`group-hover:` varyantlarını YANLIŞLIKLA kalıcı
+   renge çevirmemek için substring değil, tam token (exact class) eşlemesi
+   kullanılır — `.text-red-400` seçicisi `hover:text-red-400` token'ını eşlemez.
+   Yeni opaklık varyantları çıkarsa buraya eklenir.
+   ────────────────────────────────────────────────────────────────────────── */
+[data-theme="light"] .panel-surface .text-emerald-50,
+[data-theme="light"] .panel-surface .text-emerald-200,
+[data-theme="light"] .panel-surface .text-emerald-300,
+[data-theme="light"] .panel-surface .text-emerald-400,
+[data-theme="light"] .panel-surface .text-emerald-500,
+[data-theme="light"] .panel-surface .text-emerald-500\/80,
+[data-theme="light"] .panel-surface .text-emerald-500\/70,
+[data-theme="light"] .panel-surface .text-green-400,
+[data-theme="light"] .panel-surface .text-teal-400 {
+  color: #047857;
+}
+
+[data-theme="light"] .panel-surface .text-amber-100,
+[data-theme="light"] .panel-surface .text-amber-200,
+[data-theme="light"] .panel-surface .text-amber-300,
+[data-theme="light"] .panel-surface .text-amber-400,
+[data-theme="light"] .panel-surface .text-amber-500,
+[data-theme="light"] .panel-surface .text-yellow-500 {
+  color: #b45309;
+}
+
+[data-theme="light"] .panel-surface .text-orange-400,
+[data-theme="light"] .panel-surface .text-orange-500,
+[data-theme="light"] .panel-surface .text-orange-500\/80 {
+  color: #c2410c;
+}
+
+[data-theme="light"] .panel-surface .text-rose-50,
+[data-theme="light"] .panel-surface .text-rose-100,
+[data-theme="light"] .panel-surface .text-rose-200,
+[data-theme="light"] .panel-surface .text-rose-200\/90,
+[data-theme="light"] .panel-surface .text-rose-300,
+[data-theme="light"] .panel-surface .text-rose-400,
+[data-theme="light"] .panel-surface .text-rose-500 {
+  color: #be123c;
+}
+
+[data-theme="light"] .panel-surface .text-red-200,
+[data-theme="light"] .panel-surface .text-red-300,
+[data-theme="light"] .panel-surface .text-red-400,
+[data-theme="light"] .panel-surface .text-red-500,
+[data-theme="light"] .panel-surface .text-pink-400 {
+  color: #b91c1c;
+}
+
+[data-theme="light"] .panel-surface .text-sky-100,
+[data-theme="light"] .panel-surface .text-sky-200,
+[data-theme="light"] .panel-surface .text-sky-300,
+[data-theme="light"] .panel-surface .text-sky-400,
+[data-theme="light"] .panel-surface .text-cyan-400 {
+  color: #0369a1;
+}
+
+[data-theme="light"] .panel-surface .text-blue-300,
+[data-theme="light"] .panel-surface .text-blue-400 {
+  color: #1d4ed8;
+}
+
+[data-theme="light"] .panel-surface .text-indigo-300,
+[data-theme="light"] .panel-surface .text-indigo-400,
+[data-theme="light"] .panel-surface .text-violet-300,
+[data-theme="light"] .panel-surface .text-violet-400,
+[data-theme="light"] .panel-surface .text-purple-300,
+[data-theme="light"] .panel-surface .text-purple-400 {
+  color: #6d28d9;
+}
+
+/* --background ve --foreground burada KASITLI OLARAK tanımlanmıyor: bu
+   ikisi zaten dosyanın başındaki [data-theme] bloklarında tema-duyarlı
+   olarak set ediliyor. Bu shadcn boilerplate'i unconditional bir :root
+   olduğu için (proje data-theme attribute kullanıyor, .dark class değil)
+   önceki tanımı ezip koyu modda bile foreground'u siyaha düşürüyordu —
+   panel genelinde select/input metinlerinin okunmaz hale gelmesinin
+   asıl nedeni buydu. */
+:root {
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+/* Bu blok .dark class'ına bağlı; proje data-theme attribute kullandığı
+   için pratikte hiç eşleşmiyor — yine de --background/--foreground burada
+   da kasıtlı olarak tanımlanmıyor (yukarıdaki not). */
+.dark {
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
