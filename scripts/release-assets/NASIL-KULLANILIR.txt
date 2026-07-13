@@ -1,0 +1,40 @@
+SPECIA OPEN — BEP ve Değerlendirmeler (Yerel Sürüm)
+====================================================
+
+Özel eğitim için BEP (Bireyselleştirilmiş Eğitim Programı) hazırlama ve
+değerlendirme aracı. Tamamen bilgisayarınızda çalışır; internet, üyelik
+veya kurulum sihirbazı gerektirmez.
+
+GEREKSINIM (bir kez)
+--------------------
+Bilgisayarınızda Node.js kurulu olmalı.
+Kurmak için: https://nodejs.org adresinden "LTS" sürümünü indirip kurun.
+
+BAŞLATMA
+--------
+- Windows : "Specia-Baslat.bat" dosyasına çift tıklayın.
+- macOS   : "Specia-Baslat.command" dosyasına çift tıklayın.
+  (İlk açılışta macOS izin uyarısı verirse dosyaya sağ tıklayıp "Aç" deyin.)
+
+Birkaç saniye içinde tarayıcınızda http://localhost:3000 açılır.
+
+KAPATMA
+-------
+Açılan siyah komut penceresinde Ctrl+C tuşlarına basın veya pencereyi
+kapatın. Verileriniz her işlemde anında kaydedilir, veri kaybı olmaz.
+
+VERİLERİNİZ VE YEDEKLEME
+------------------------
+Tüm verileriniz bu klasörün içindeki "veri" klasöründedir:
+  veri/specia.db     -> öğrenciler, BEP'ler, değerlendirmeler
+  veri/ayarlar.env   -> verilerinizi şifreleyen gizli anahtarlar
+
+Yedek almak için "veri" klasörünü kopyalamanız yeterlidir.
+UYARI: "veri/ayarlar.env" dosyası silinirse şifreli veriler bir daha
+açılamaz. Bu yüzden yedeklerde iki dosyayı daima birlikte saklayın.
+
+Program klasörünü taşırsanız "veri" klasörünü de birlikte taşıyın.
+
+LİSANS
+------
+MIT lisansı ile dağıtılır. Kaynak kod: https://github.com/rootayb/specia-open

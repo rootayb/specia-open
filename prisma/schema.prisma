@@ -1,5 +1,8 @@
 generator client {
   provider = "prisma-client-js"
+  // İndirilebilir paketin Windows/macOS/Linux üzerinde çalışabilmesi için
+  // tüm platformların sorgu motorları birlikte üretilir.
+  binaryTargets = ["native", "darwin", "darwin-arm64", "windows", "debian-openssl-3.0.x"]
 }
 
 datasource db {

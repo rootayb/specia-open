@@ -28,6 +28,8 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // İndirilebilir paket: sunucu ve gerekli bağımlılıklar .next/standalone içine paketlenir.
+  output: "standalone",
   turbopack: {
     root: process.cwd(),
   },

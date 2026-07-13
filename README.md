@@ -12,7 +12,15 @@ Specia'nın **BEP** (Bireyselleştirilmiş Eğitim Programı) ve **Değerlendirm
   - Davranış Değerlendirmesi (ABC modeli, anlık gözlem)
 - **Formlar** — BEP'e bağlı hazır form şablonları
 
-## Kurulum (ilk kez)
+## Hazır paketi indir (önerilen — kurulum gerektirmez)
+
+1. Bilgisayarınızda [Node.js](https://nodejs.org) yoksa LTS sürümünü kurun (bir kez).
+2. [Releases sayfasından](https://github.com/rootayb/specia-open/releases/latest) `specia-open.zip` dosyasını indirin ve bir klasöre çıkarın.
+3. **Windows**: `Specia-Baslat.bat` · **macOS**: `Specia-Baslat.command` dosyasına çift tıklayın.
+
+Tarayıcınızda `http://localhost:3000` otomatik açılır. Verileriniz paketin içindeki `veri/` klasöründe saklanır; yedek için o klasörü kopyalamanız yeterli. Ayrıntılar paket içindeki `NASIL-KULLANILIR.txt` dosyasındadır.
+
+## Kaynak koddan kurulum (geliştiriciler için)
 
 Gereksinim: [Node.js](https://nodejs.org) 20 veya üzeri.
 
